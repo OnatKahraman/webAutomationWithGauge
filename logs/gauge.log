@@ -1,0 +1,1062 @@
+21-04-2021 22:03:44.698 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Program Files\webAutomationWithGauge\.gauge\screenshots
+21-04-2021 22:03:44.704 [Gauge] [INFO] Compatible version of plugin java not found. Installing plugin java...
+21-04-2021 22:03:44.704 [Gauge] [DEBUG] Gathering metadata for java
+21-04-2021 22:03:44.710 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=&o=windows&a=amd64
+21-04-2021 22:03:52.670 [Gauge] [DEBUG] Downloading https://github.com/getgauge/gauge-java/releases/download/v0.7.13/gauge-java-0.7.13-windows.x86_64.zip
+21-04-2021 22:04:04.421 [Gauge] [DEBUG] Installing plugin java 0.7.13
+21-04-2021 22:04:04.618 [Gauge] [INFO] Successfully installed plugin 'java' version 0.7.13
+21-04-2021 22:04:04.620 [Gauge] [INFO] Compatible version of plugin html-report not found. Installing plugin html-report...
+21-04-2021 22:04:04.620 [Gauge] [DEBUG] Gathering metadata for html-report
+21-04-2021 22:04:04.632 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=java&o=windows&a=amd64
+21-04-2021 22:04:04.708 [Gauge] [DEBUG] Downloading https://github.com/getgauge/html-report/releases/download/v4.0.12/html-report-4.0.12-windows.x86_64.zip
+21-04-2021 22:04:09.538 [Gauge] [DEBUG] Installing plugin html-report 4.0.12
+21-04-2021 22:04:09.814 [Gauge] [INFO] Successfully installed plugin 'html-report' version 4.0.12
+21-04-2021 22:04:09.840 [Gauge] [INFO] Installing required plugins.
+21-04-2021 22:04:09.840 [Gauge] [DEBUG] Installing plugin 'screenshot'
+21-04-2021 22:04:09.840 [Gauge] [DEBUG] Gathering metadata for screenshot
+21-04-2021 22:04:09.842 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java&o=windows&a=amd64
+21-04-2021 22:04:09.930 [Gauge] [DEBUG] Downloading https://github.com/getgauge/gauge_screenshot/releases/download/v0.0.1/screenshot-0.0.1-windows.x86_64.zip
+21-04-2021 22:04:10.241 [Gauge] [DEBUG] Checking updates...
+21-04-2021 22:04:10.248 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java&o=windows&a=amd64
+21-04-2021 22:04:10.328 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java&o=windows&a=amd64
+21-04-2021 22:04:10.753 [Gauge] [DEBUG] Installing plugin screenshot 0.0.1
+21-04-2021 22:04:10.766 [Gauge] [INFO] Successfully installed plugin 'screenshot' version 0.0.1
+21-04-2021 22:04:10.766 [Gauge] [DEBUG] Parsing started.
+21-04-2021 22:04:10.766 [Gauge] [DEBUG] Started concepts parsing.
+21-04-2021 22:04:10.770 [Gauge] [DEBUG] 0 concepts parsing completed.
+21-04-2021 22:04:10.771 [Gauge] [DEBUG] Started specifications parsing.
+21-04-2021 22:04:10.773 [Gauge] [DEBUG] 1 specifications parsing completed.
+21-04-2021 22:04:10.773 [Gauge] [DEBUG] Parsing completed.
+21-04-2021 22:04:11.055 [java] [DEBUG] ***** Printing Properties/Env Values *****
+21-04-2021 22:04:11.055 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\nodejs\;C:\Program Files\Gauge\bin;C:\Program Files\Java\jdk-16\bin;D:\opencv\anaconda3;D:\opencv\anaconda3\Library\mingw-w64\bin;D:\opencv\anaconda3\Library\usr\bin;D:\opencv\anaconda3\Library\bin;D:\opencv\anaconda3\Scripts;C:\Users\onat\AppData\Roaming\npm;C:\Users\onat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\onat\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+21-04-2021 22:04:11.055 [java] [DEBUG] JAVA_HOME: 
+21-04-2021 22:04:11.055 [java] [DEBUG] gauge_project_root: C:\Program Files\webAutomationWithGauge
+21-04-2021 22:04:11.055 [java] [DEBUG] gauge_parallel_streams_count: 2
+21-04-2021 22:04:11.055 [java] [DEBUG] gauge_reports_dir: reports
+21-04-2021 22:04:11.055 [java] [DEBUG] overwrite_reports: true
+21-04-2021 22:04:11.055 [java] [DEBUG] logs_directory: logs
+21-04-2021 22:04:11.055 [java] [DEBUG] enable_multithreading: false
+21-04-2021 22:04:11.055 [java] [DEBUG] gauge_specs_dir: specs
+21-04-2021 22:04:11.056 [java] [DEBUG] csv_delimiter: ,
+21-04-2021 22:04:11.056 [java] [DEBUG] gauge_java_home: 
+21-04-2021 22:04:11.056 [java] [DEBUG] gauge_custom_build_path: 
+21-04-2021 22:04:11.056 [java] [DEBUG] gauge_additional_libs: libs/*
+21-04-2021 22:04:11.056 [java] [DEBUG] gauge_jvm_args: 
+21-04-2021 22:04:11.056 [java] [DEBUG] gauge_custom_compile_dir: 
+21-04-2021 22:04:11.056 [java] [DEBUG] gauge_clear_state_level: scenario
+21-04-2021 22:04:11.056 [java] [DEBUG] ***** END *****
+21-04-2021 22:04:11.056 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+21-04-2021 22:04:11.056 [java] [ERROR] Installed version of gauge-java (0.7.13) does not match with dependency gauge-java () specified in pom.xml file
+21-04-2021 22:04:11.056 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk-16!\java.base;C:\Program Files\Java\jdk-16!\java.compiler;C:\Program Files\Java\jdk-16!\java.datatransfer;C:\Program Files\Java\jdk-16!\java.desktop;C:\Program Files\Java\jdk-16!\java.instrument;C:\Program Files\Java\jdk-16!\java.logging;C:\Program Files\Java\jdk-16!\java.management;C:\Program Files\Java\jdk-16!\java.management.rmi;C:\Program Files\Java\jdk-16!\java.naming;C:\Program Files\Java\jdk-16!\java.net.http;C:\Program Files\Java\jdk-16!\java.prefs;C:\Program Files\Java\jdk-16!\java.rmi;C:\Program Files\Java\jdk-16!\java.scripting;C:\Program Files\Java\jdk-16!\java.se;C:\Program Files\Java\jdk-16!\java.security.jgss;C:\Program Files\Java\jdk-16!\java.security.sasl;C:\Program Files\Java\jdk-16!\java.smartcardio;C:\Program Files\Java\jdk-16!\java.sql;C:\Program Files\Java\jdk-16!\java.sql.rowset;C:\Program Files\Java\jdk-16!\java.transaction.xa;C:\Program Files\Java\jdk-16!\java.xml;C:\Program Files\Java\jdk-16!\java.xml.crypto;C:\Program Files\Java\jdk-16!\jdk.accessibility;C:\Program Files\Java\jdk-16!\jdk.attach;C:\Program Files\Java\jdk-16!\jdk.charsets;C:\Program Files\Java\jdk-16!\jdk.compiler;C:\Program Files\Java\jdk-16!\jdk.crypto.cryptoki;C:\Program Files\Java\jdk-16!\jdk.crypto.ec;C:\Program Files\Java\jdk-16!\jdk.crypto.mscapi;C:\Program Files\Java\jdk-16!\jdk.dynalink;C:\Program Files\Java\jdk-16!\jdk.editpad;C:\Program Files\Java\jdk-16!\jdk.hotspot.agent;C:\Program Files\Java\jdk-16!\jdk.httpserver;C:\Program Files\Java\jdk-16!\jdk.incubator.foreign;C:\Program Files\Java\jdk-16!\jdk.incubator.vector;C:\Program Files\Java\jdk-16!\jdk.internal.ed;C:\Program Files\Java\jdk-16!\jdk.internal.jvmstat;C:\Program Files\Java\jdk-16!\jdk.internal.le;C:\Program Files\Java\jdk-16!\jdk.internal.opt;C:\Program Files\Java\jdk-16!\jdk.internal.vm.ci;C:\Program Files\Java\jdk-16!\jdk.jartool;C:\Program Files\Java\jdk-16!\jdk.javadoc;C:\Program Files\Java\jdk-16!\jdk.jcmd;C:\Program Files\Java\jdk-16!\jdk.jconsole;C:\Program Files\Java\jdk-16!\jdk.jdeps;C:\Program Files\Java\jdk-16!\jdk.jdi;C:\Program Files\Java\jdk-16!\jdk.jdwp.agent;C:\Program Files\Java\jdk-16!\jdk.jfr;C:\Program Files\Java\jdk-16!\jdk.jlink;C:\Program Files\Java\jdk-16!\jdk.jpackage;C:\Program Files\Java\jdk-16!\jdk.jshell;C:\Program Files\Java\jdk-16!\jdk.jsobject;C:\Program Files\Java\jdk-16!\jdk.jstatd;C:\Program Files\Java\jdk-16!\jdk.localedata;C:\Program Files\Java\jdk-16!\jdk.management;C:\Program Files\Java\jdk-16!\jdk.management.agent;C:\Program Files\Java\jdk-16!\jdk.management.jfr;C:\Program Files\Java\jdk-16!\jdk.naming.dns;C:\Program Files\Java\jdk-16!\jdk.naming.rmi;C:\Program Files\Java\jdk-16!\jdk.net;C:\Program Files\Java\jdk-16!\jdk.nio.mapmode;C:\Program Files\Java\jdk-16!\jdk.sctp;C:\Program Files\Java\jdk-16!\jdk.security.auth;C:\Program Files\Java\jdk-16!\jdk.security.jgss;C:\Program Files\Java\jdk-16!\jdk.unsupported;C:\Program Files\Java\jdk-16!\jdk.unsupported.desktop;C:\Program Files\Java\jdk-16!\jdk.xml.dom;C:\Program Files\Java\jdk-16!\jdk.zipfs;C:\Program Files\webAutomationWithGauge\target\test-classes;C:\Users\onat\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\onat\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\onat\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\onat\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\onat\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\onat\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\onat\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\onat\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\onat\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\onat\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\onat\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\onat\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\onat\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\onat\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\onat\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\onat\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\onat\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\onat\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\onat\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\onat\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\onat\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\onat\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\onat\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.0\webdrivermanager-4.2.0.jar;C:\Users\onat\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\onat\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\onat\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\onat\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\onat\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\onat\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\onat\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\onat\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar;C:\Users\onat\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\onat\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+21-04-2021 22:04:11.061 [java] [DEBUG] found java executable in java.exe
+21-04-2021 22:04:11.061 [java] [DEBUG] running - java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+21-04-2021 22:04:11.061 [java] [DEBUG] stdout/stderr is logged to logs\6780-java.exe.out
+21-04-2021 22:04:12.950 [java] [DEBUG] multithreading is set to false
+21-04-2021 22:04:14.900 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+21-04-2021 22:04:15.201 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+21-04-2021 22:04:15.201 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+21-04-2021 22:04:15.201 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+21-04-2021 22:04:20.207 [java] [DEBUG] gauge-java took 7216milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+21-04-2021 22:04:20.207 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 7216
+21-04-2021 22:04:20.207 [java] [DEBUG] starting gRPC server...
+21-04-2021 22:04:21.296 [java] [DEBUG] started gRPC server on port 49963
+21-04-2021 22:04:21.296 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49963
+21-04-2021 22:04:22.191 [Gauge] [DEBUG] Successfully made the connection with runner with port: 49963
+21-04-2021 22:04:22.191 [Gauge] [DEBUG] Validation started.
+21-04-2021 22:04:28.884 [java] [DEBUG] Scanning packages for steps
+21-04-2021 22:04:29.809 [java] [DEBUG] Comparing 'org.example.StepImplementation.ensureInstallationInstructionsAreAvailable' and 'org.example.StepImplementation.ensureInstallationInstructionsAreAvailable'
+21-04-2021 22:04:29.809 [java] [DEBUG] Found Ensure installation instructions are available in current project scope.
+21-04-2021 22:04:29.809 [java] [DEBUG] Comparing 'org.example.StepImplementation.gotoGetStartedPage' and 'org.example.StepImplementation.gotoGetStartedPage'
+21-04-2021 22:04:29.809 [java] [DEBUG] Found Go to Gauge Get Started Page in current project scope.
+21-04-2021 22:04:29.809 [java] [DEBUG] Comparing 'org.example.StepImplementation.implementation1' and 'org.example.StepImplementation.implementation1'
+21-04-2021 22:04:29.809 [java] [DEBUG] Found Open the Gauge homepage in current project scope.
+21-04-2021 22:04:29.809 [java] [DEBUG] Scanning packages for hooks
+21-04-2021 22:04:29.809 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+21-04-2021 22:04:29.809 [java] [DEBUG] 	Open the Gauge homepage : public void implementation1()
+21-04-2021 22:04:29.809 [java] [DEBUG] 	Go to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException
+21-04-2021 22:04:29.809 [java] [DEBUG] 	Ensure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException
+21-04-2021 22:04:33.473 [Gauge] [DEBUG] Validation completed.
+21-04-2021 22:04:33.503 [Gauge] [DEBUG] Run started
+21-04-2021 22:04:33.520 [Gauge] [DEBUG] Starting Html Report plugin
+21-04-2021 22:04:33.650 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49966
+21-04-2021 22:04:33.658 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49966
+21-04-2021 22:04:33.658 [Gauge] [DEBUG] Initialising suite data store.
+21-04-2021 22:04:47.549 [java] [ERROR] Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 9548
+21-04-2021 22:04:47.549 [java] [ERROR] Only local connections are allowed.
+21-04-2021 22:04:47.549 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+21-04-2021 22:04:47.740 [java] [ERROR] ChromeDriver was started successfully.
+21-04-2021 22:05:34.756 [java] [ERROR] Nis 21, 2021 10:05:34 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+21-04-2021 22:05:34.756 [java] [ERROR] INFO: Detected dialect: W3C
+21-04-2021 22:05:35.381 [java] [DEBUG] Executing 'Open the Gauge homepage' using 'class org.example.StepImplementation.implementation1
+21-04-2021 22:05:40.010 [java] [DEBUG] Executing 'Go to Gauge Get Started Page' using 'class org.example.StepImplementation.gotoGetStartedPage
+21-04-2021 22:05:45.941 [java] [DEBUG] Executing 'Ensure installation instructions are available' using 'class org.example.StepImplementation.ensureInstallationInstructionsAreAvailable
+21-04-2021 22:05:47.580 [html-report] [DEBUG] Transformed SuiteResult to report structure
+21-04-2021 22:05:47.977 [html-report] [INFO] Successfully generated html-report to => C:\Program Files\webAutomationWithGauge\reports\html-report\index.html
+21-04-2021 22:05:47.977 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\onat\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+21-04-2021 22:05:47.977 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+21-04-2021 22:05:48.586 [Gauge] [DEBUG] Runner with PID:6780 has exited
+21-04-2021 22:05:48.586 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+21-04-2021 22:05:48.586 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+21-04-2021 22:05:48.586 [Gauge] [INFO] 
+Total time taken: 1m14.058s
+21-04-2021 22:14:18.326 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Program Files\webAutomationWithGauge\.gauge\screenshots
+21-04-2021 22:14:18.330 [Gauge] [DEBUG] Plugin java is already installed.
+21-04-2021 22:14:18.336 [Gauge] [DEBUG] Plugin html-report is already installed.
+21-04-2021 22:14:18.337 [Gauge] [DEBUG] Parsing started.
+21-04-2021 22:14:18.337 [Gauge] [DEBUG] Started concepts parsing.
+21-04-2021 22:14:18.345 [Gauge] [DEBUG] 0 concepts parsing completed.
+21-04-2021 22:14:18.345 [Gauge] [DEBUG] Started specifications parsing.
+21-04-2021 22:14:18.360 [Gauge] [DEBUG] 1 specifications parsing completed.
+21-04-2021 22:14:18.360 [Gauge] [DEBUG] Parsing completed.
+21-04-2021 22:14:18.458 [java] [DEBUG] ***** Printing Properties/Env Values *****
+21-04-2021 22:14:18.458 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\nodejs\;C:\Program Files\Gauge\bin;C:\Program Files\Java\jdk-16\bin;D:\opencv\anaconda3;D:\opencv\anaconda3\Library\mingw-w64\bin;D:\opencv\anaconda3\Library\usr\bin;D:\opencv\anaconda3\Library\bin;D:\opencv\anaconda3\Scripts;C:\Users\onat\AppData\Roaming\npm;C:\Users\onat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\onat\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+21-04-2021 22:14:18.458 [java] [DEBUG] JAVA_HOME: 
+21-04-2021 22:14:18.458 [java] [DEBUG] gauge_project_root: C:\Program Files\webAutomationWithGauge
+21-04-2021 22:14:18.458 [java] [DEBUG] gauge_parallel_streams_count: 2
+21-04-2021 22:14:18.458 [java] [DEBUG] gauge_reports_dir: reports
+21-04-2021 22:14:18.458 [java] [DEBUG] overwrite_reports: true
+21-04-2021 22:14:18.458 [java] [DEBUG] logs_directory: logs
+21-04-2021 22:14:18.458 [java] [DEBUG] enable_multithreading: false
+21-04-2021 22:14:18.458 [java] [DEBUG] gauge_specs_dir: specs
+21-04-2021 22:14:18.458 [java] [DEBUG] csv_delimiter: ,
+21-04-2021 22:14:18.458 [java] [DEBUG] gauge_java_home: 
+21-04-2021 22:14:18.458 [java] [DEBUG] gauge_custom_build_path: 
+21-04-2021 22:14:18.458 [java] [DEBUG] gauge_additional_libs: libs/*
+21-04-2021 22:14:18.458 [java] [DEBUG] gauge_jvm_args: 
+21-04-2021 22:14:18.458 [java] [DEBUG] gauge_custom_compile_dir: 
+21-04-2021 22:14:18.458 [java] [DEBUG] gauge_clear_state_level: scenario
+21-04-2021 22:14:18.458 [java] [DEBUG] ***** END *****
+21-04-2021 22:14:18.463 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+21-04-2021 22:14:18.467 [java] [ERROR] Installed version of gauge-java (0.7.13) does not match with dependency gauge-java () specified in pom.xml file
+21-04-2021 22:14:18.467 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk-16!\java.base;C:\Program Files\Java\jdk-16!\java.compiler;C:\Program Files\Java\jdk-16!\java.datatransfer;C:\Program Files\Java\jdk-16!\java.desktop;C:\Program Files\Java\jdk-16!\java.instrument;C:\Program Files\Java\jdk-16!\java.logging;C:\Program Files\Java\jdk-16!\java.management;C:\Program Files\Java\jdk-16!\java.management.rmi;C:\Program Files\Java\jdk-16!\java.naming;C:\Program Files\Java\jdk-16!\java.net.http;C:\Program Files\Java\jdk-16!\java.prefs;C:\Program Files\Java\jdk-16!\java.rmi;C:\Program Files\Java\jdk-16!\java.scripting;C:\Program Files\Java\jdk-16!\java.se;C:\Program Files\Java\jdk-16!\java.security.jgss;C:\Program Files\Java\jdk-16!\java.security.sasl;C:\Program Files\Java\jdk-16!\java.smartcardio;C:\Program Files\Java\jdk-16!\java.sql;C:\Program Files\Java\jdk-16!\java.sql.rowset;C:\Program Files\Java\jdk-16!\java.transaction.xa;C:\Program Files\Java\jdk-16!\java.xml;C:\Program Files\Java\jdk-16!\java.xml.crypto;C:\Program Files\Java\jdk-16!\jdk.accessibility;C:\Program Files\Java\jdk-16!\jdk.attach;C:\Program Files\Java\jdk-16!\jdk.charsets;C:\Program Files\Java\jdk-16!\jdk.compiler;C:\Program Files\Java\jdk-16!\jdk.crypto.cryptoki;C:\Program Files\Java\jdk-16!\jdk.crypto.ec;C:\Program Files\Java\jdk-16!\jdk.crypto.mscapi;C:\Program Files\Java\jdk-16!\jdk.dynalink;C:\Program Files\Java\jdk-16!\jdk.editpad;C:\Program Files\Java\jdk-16!\jdk.hotspot.agent;C:\Program Files\Java\jdk-16!\jdk.httpserver;C:\Program Files\Java\jdk-16!\jdk.incubator.foreign;C:\Program Files\Java\jdk-16!\jdk.incubator.vector;C:\Program Files\Java\jdk-16!\jdk.internal.ed;C:\Program Files\Java\jdk-16!\jdk.internal.jvmstat;C:\Program Files\Java\jdk-16!\jdk.internal.le;C:\Program Files\Java\jdk-16!\jdk.internal.opt;C:\Program Files\Java\jdk-16!\jdk.internal.vm.ci;C:\Program Files\Java\jdk-16!\jdk.jartool;C:\Program Files\Java\jdk-16!\jdk.javadoc;C:\Program Files\Java\jdk-16!\jdk.jcmd;C:\Program Files\Java\jdk-16!\jdk.jconsole;C:\Program Files\Java\jdk-16!\jdk.jdeps;C:\Program Files\Java\jdk-16!\jdk.jdi;C:\Program Files\Java\jdk-16!\jdk.jdwp.agent;C:\Program Files\Java\jdk-16!\jdk.jfr;C:\Program Files\Java\jdk-16!\jdk.jlink;C:\Program Files\Java\jdk-16!\jdk.jpackage;C:\Program Files\Java\jdk-16!\jdk.jshell;C:\Program Files\Java\jdk-16!\jdk.jsobject;C:\Program Files\Java\jdk-16!\jdk.jstatd;C:\Program Files\Java\jdk-16!\jdk.localedata;C:\Program Files\Java\jdk-16!\jdk.management;C:\Program Files\Java\jdk-16!\jdk.management.agent;C:\Program Files\Java\jdk-16!\jdk.management.jfr;C:\Program Files\Java\jdk-16!\jdk.naming.dns;C:\Program Files\Java\jdk-16!\jdk.naming.rmi;C:\Program Files\Java\jdk-16!\jdk.net;C:\Program Files\Java\jdk-16!\jdk.nio.mapmode;C:\Program Files\Java\jdk-16!\jdk.sctp;C:\Program Files\Java\jdk-16!\jdk.security.auth;C:\Program Files\Java\jdk-16!\jdk.security.jgss;C:\Program Files\Java\jdk-16!\jdk.unsupported;C:\Program Files\Java\jdk-16!\jdk.unsupported.desktop;C:\Program Files\Java\jdk-16!\jdk.xml.dom;C:\Program Files\Java\jdk-16!\jdk.zipfs;C:\Program Files\webAutomationWithGauge\target\test-classes;C:\Users\onat\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\onat\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\onat\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\onat\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\onat\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\onat\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\onat\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\onat\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\onat\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\onat\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\onat\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\onat\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\onat\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\onat\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\onat\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\onat\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\onat\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\onat\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\onat\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\onat\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\onat\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\onat\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\onat\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.0\webdrivermanager-4.2.0.jar;C:\Users\onat\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\onat\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\onat\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\onat\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\onat\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\onat\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\onat\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\onat\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar;C:\Users\onat\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\onat\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+21-04-2021 22:14:18.479 [java] [DEBUG] found java executable in java.exe
+21-04-2021 22:14:18.518 [java] [DEBUG] running - java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+21-04-2021 22:14:18.525 [java] [DEBUG] stdout/stderr is logged to logs\6888-java.exe.out
+21-04-2021 22:14:19.830 [java] [DEBUG] multithreading is set to false
+21-04-2021 22:14:21.214 [Gauge] [DEBUG] Checking updates...
+21-04-2021 22:14:21.219 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+21-04-2021 22:14:21.988 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+21-04-2021 22:14:22.471 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+21-04-2021 22:14:22.713 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+21-04-2021 22:14:23.129 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+21-04-2021 22:14:23.131 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+21-04-2021 22:14:23.131 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+21-04-2021 22:14:31.045 [java] [DEBUG] gauge-java took 11252milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+21-04-2021 22:14:31.045 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 11252
+21-04-2021 22:14:31.045 [java] [DEBUG] starting gRPC server...
+21-04-2021 22:14:32.584 [java] [DEBUG] started gRPC server on port 50035
+21-04-2021 22:14:32.584 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 50035
+21-04-2021 22:14:33.080 [java] [DEBUG] Scanning packages for steps
+21-04-2021 22:14:33.165 [java] [DEBUG] Comparing 'org.example.StepImplementation.ensureInstallationInstructionsAreAvailable' and 'org.example.StepImplementation.ensureInstallationInstructionsAreAvailable'
+21-04-2021 22:14:33.165 [java] [DEBUG] Found Ensure installation instructions are available in current project scope.
+21-04-2021 22:14:33.165 [java] [DEBUG] Comparing 'org.example.StepImplementation.gotoGetStartedPage' and 'org.example.StepImplementation.gotoGetStartedPage'
+21-04-2021 22:14:33.165 [java] [DEBUG] Found Go to Gauge Get Started Page in current project scope.
+21-04-2021 22:14:33.165 [java] [DEBUG] Comparing 'org.example.StepImplementation.implementation1' and 'org.example.StepImplementation.implementation1'
+21-04-2021 22:14:33.165 [java] [DEBUG] Found Open the Gauge homepage in current project scope.
+21-04-2021 22:14:33.165 [java] [DEBUG] Scanning packages for hooks
+21-04-2021 22:14:33.165 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+21-04-2021 22:14:33.165 [java] [DEBUG] 	Open the Gauge homepage : public void implementation1()
+21-04-2021 22:14:33.165 [java] [DEBUG] 	Go to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException
+21-04-2021 22:14:33.165 [java] [DEBUG] 	Ensure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException
+21-04-2021 22:14:33.432 [Gauge] [DEBUG] Successfully made the connection with runner with port: 50035
+21-04-2021 22:14:33.433 [Gauge] [DEBUG] Validation started.
+21-04-2021 22:14:38.222 [Gauge] [DEBUG] Validation completed.
+21-04-2021 22:14:38.222 [Gauge] [DEBUG] Run started
+21-04-2021 22:14:38.224 [Gauge] [DEBUG] Starting Html Report plugin
+21-04-2021 22:14:38.263 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 50038
+21-04-2021 22:14:38.265 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 50038
+21-04-2021 22:14:38.265 [Gauge] [DEBUG] Initialising suite data store.
+21-04-2021 22:14:40.537 [java] [ERROR] Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 12649
+21-04-2021 22:14:40.538 [java] [ERROR] Only local connections are allowed.
+21-04-2021 22:14:40.538 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+21-04-2021 22:14:40.555 [java] [ERROR] ChromeDriver was started successfully.
+21-04-2021 22:14:53.582 [java] [ERROR] Nis 21, 2021 10:14:53 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+21-04-2021 22:14:53.582 [java] [ERROR] INFO: Detected dialect: W3C
+21-04-2021 22:14:54.696 [java] [DEBUG] Executing 'Open the Gauge homepage' using 'class org.example.StepImplementation.implementation1
+21-04-2021 22:14:57.981 [java] [DEBUG] Executing 'Go to Gauge Get Started Page' using 'class org.example.StepImplementation.gotoGetStartedPage
+21-04-2021 22:15:01.517 [java] [DEBUG] Executing 'Ensure installation instructions are available' using 'class org.example.StepImplementation.ensureInstallationInstructionsAreAvailable
+21-04-2021 22:15:03.515 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+21-04-2021 22:15:03.555 [html-report] [DEBUG] Transformed SuiteResult to report structure
+21-04-2021 22:15:03.555 [html-report] [INFO] Successfully generated html-report to => C:\Program Files\webAutomationWithGauge\reports\html-report\index.html
+21-04-2021 22:15:03.555 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\onat\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+21-04-2021 22:15:03.989 [Gauge] [DEBUG] Runner with PID:6888 has exited
+21-04-2021 22:15:03.989 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+21-04-2021 22:15:03.989 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+21-04-2021 22:15:03.989 [Gauge] [INFO] 
+Total time taken: 25.252s
+21-04-2021 22:34:30.027 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Program Files\webAutomationWithGauge\.gauge\screenshots
+21-04-2021 22:34:30.029 [Gauge] [DEBUG] Plugin java is already installed.
+21-04-2021 22:34:30.030 [Gauge] [DEBUG] Plugin html-report is already installed.
+21-04-2021 22:34:30.030 [Gauge] [DEBUG] Parsing started.
+21-04-2021 22:34:30.031 [Gauge] [DEBUG] Started concepts parsing.
+21-04-2021 22:34:30.037 [Gauge] [DEBUG] 0 concepts parsing completed.
+21-04-2021 22:34:30.037 [Gauge] [DEBUG] Started specifications parsing.
+21-04-2021 22:34:30.038 [Gauge] [DEBUG] 1 specifications parsing completed.
+21-04-2021 22:34:30.038 [Gauge] [DEBUG] Parsing completed.
+21-04-2021 22:34:30.380 [java] [DEBUG] ***** Printing Properties/Env Values *****
+21-04-2021 22:34:30.380 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\nodejs\;C:\Program Files\Gauge\bin;C:\Program Files\Java\jdk-16\bin;D:\opencv\anaconda3;D:\opencv\anaconda3\Library\mingw-w64\bin;D:\opencv\anaconda3\Library\usr\bin;D:\opencv\anaconda3\Library\bin;D:\opencv\anaconda3\Scripts;C:\Users\onat\AppData\Roaming\npm;C:\Users\onat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\onat\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+21-04-2021 22:34:30.380 [java] [DEBUG] JAVA_HOME: 
+21-04-2021 22:34:30.380 [java] [DEBUG] gauge_project_root: C:\Program Files\webAutomationWithGauge
+21-04-2021 22:34:30.380 [java] [DEBUG] gauge_parallel_streams_count: 2
+21-04-2021 22:34:30.380 [java] [DEBUG] gauge_reports_dir: reports
+21-04-2021 22:34:30.380 [java] [DEBUG] overwrite_reports: true
+21-04-2021 22:34:30.380 [java] [DEBUG] logs_directory: logs
+21-04-2021 22:34:30.380 [java] [DEBUG] enable_multithreading: false
+21-04-2021 22:34:30.380 [java] [DEBUG] gauge_specs_dir: specs
+21-04-2021 22:34:30.380 [java] [DEBUG] csv_delimiter: ,
+21-04-2021 22:34:30.380 [java] [DEBUG] gauge_java_home: 
+21-04-2021 22:34:30.380 [java] [DEBUG] gauge_custom_build_path: 
+21-04-2021 22:34:30.380 [java] [DEBUG] gauge_additional_libs: libs/*
+21-04-2021 22:34:30.380 [java] [DEBUG] gauge_jvm_args: 
+21-04-2021 22:34:30.380 [java] [DEBUG] gauge_custom_compile_dir: 
+21-04-2021 22:34:30.380 [java] [DEBUG] gauge_clear_state_level: scenario
+21-04-2021 22:34:30.380 [java] [DEBUG] ***** END *****
+21-04-2021 22:34:30.393 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+21-04-2021 22:34:30.393 [java] [ERROR] Installed version of gauge-java (0.7.13) does not match with dependency gauge-java () specified in pom.xml file
+21-04-2021 22:34:30.394 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk-16!\java.base;C:\Program Files\Java\jdk-16!\java.compiler;C:\Program Files\Java\jdk-16!\java.datatransfer;C:\Program Files\Java\jdk-16!\java.desktop;C:\Program Files\Java\jdk-16!\java.instrument;C:\Program Files\Java\jdk-16!\java.logging;C:\Program Files\Java\jdk-16!\java.management;C:\Program Files\Java\jdk-16!\java.management.rmi;C:\Program Files\Java\jdk-16!\java.naming;C:\Program Files\Java\jdk-16!\java.net.http;C:\Program Files\Java\jdk-16!\java.prefs;C:\Program Files\Java\jdk-16!\java.rmi;C:\Program Files\Java\jdk-16!\java.scripting;C:\Program Files\Java\jdk-16!\java.se;C:\Program Files\Java\jdk-16!\java.security.jgss;C:\Program Files\Java\jdk-16!\java.security.sasl;C:\Program Files\Java\jdk-16!\java.smartcardio;C:\Program Files\Java\jdk-16!\java.sql;C:\Program Files\Java\jdk-16!\java.sql.rowset;C:\Program Files\Java\jdk-16!\java.transaction.xa;C:\Program Files\Java\jdk-16!\java.xml;C:\Program Files\Java\jdk-16!\java.xml.crypto;C:\Program Files\Java\jdk-16!\jdk.accessibility;C:\Program Files\Java\jdk-16!\jdk.attach;C:\Program Files\Java\jdk-16!\jdk.charsets;C:\Program Files\Java\jdk-16!\jdk.compiler;C:\Program Files\Java\jdk-16!\jdk.crypto.cryptoki;C:\Program Files\Java\jdk-16!\jdk.crypto.ec;C:\Program Files\Java\jdk-16!\jdk.crypto.mscapi;C:\Program Files\Java\jdk-16!\jdk.dynalink;C:\Program Files\Java\jdk-16!\jdk.editpad;C:\Program Files\Java\jdk-16!\jdk.hotspot.agent;C:\Program Files\Java\jdk-16!\jdk.httpserver;C:\Program Files\Java\jdk-16!\jdk.incubator.foreign;C:\Program Files\Java\jdk-16!\jdk.incubator.vector;C:\Program Files\Java\jdk-16!\jdk.internal.ed;C:\Program Files\Java\jdk-16!\jdk.internal.jvmstat;C:\Program Files\Java\jdk-16!\jdk.internal.le;C:\Program Files\Java\jdk-16!\jdk.internal.opt;C:\Program Files\Java\jdk-16!\jdk.internal.vm.ci;C:\Program Files\Java\jdk-16!\jdk.jartool;C:\Program Files\Java\jdk-16!\jdk.javadoc;C:\Program Files\Java\jdk-16!\jdk.jcmd;C:\Program Files\Java\jdk-16!\jdk.jconsole;C:\Program Files\Java\jdk-16!\jdk.jdeps;C:\Program Files\Java\jdk-16!\jdk.jdi;C:\Program Files\Java\jdk-16!\jdk.jdwp.agent;C:\Program Files\Java\jdk-16!\jdk.jfr;C:\Program Files\Java\jdk-16!\jdk.jlink;C:\Program Files\Java\jdk-16!\jdk.jpackage;C:\Program Files\Java\jdk-16!\jdk.jshell;C:\Program Files\Java\jdk-16!\jdk.jsobject;C:\Program Files\Java\jdk-16!\jdk.jstatd;C:\Program Files\Java\jdk-16!\jdk.localedata;C:\Program Files\Java\jdk-16!\jdk.management;C:\Program Files\Java\jdk-16!\jdk.management.agent;C:\Program Files\Java\jdk-16!\jdk.management.jfr;C:\Program Files\Java\jdk-16!\jdk.naming.dns;C:\Program Files\Java\jdk-16!\jdk.naming.rmi;C:\Program Files\Java\jdk-16!\jdk.net;C:\Program Files\Java\jdk-16!\jdk.nio.mapmode;C:\Program Files\Java\jdk-16!\jdk.sctp;C:\Program Files\Java\jdk-16!\jdk.security.auth;C:\Program Files\Java\jdk-16!\jdk.security.jgss;C:\Program Files\Java\jdk-16!\jdk.unsupported;C:\Program Files\Java\jdk-16!\jdk.unsupported.desktop;C:\Program Files\Java\jdk-16!\jdk.xml.dom;C:\Program Files\Java\jdk-16!\jdk.zipfs;C:\Program Files\webAutomationWithGauge\target\test-classes;C:\Users\onat\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\onat\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\onat\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\onat\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\onat\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\onat\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\onat\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\onat\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\onat\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\onat\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\onat\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\onat\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\onat\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\onat\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\onat\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\onat\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\onat\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\onat\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\onat\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\onat\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\onat\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\onat\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\onat\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.0\webdrivermanager-4.2.0.jar;C:\Users\onat\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\onat\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\onat\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\onat\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\onat\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\onat\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\onat\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\onat\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar;C:\Users\onat\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\onat\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+21-04-2021 22:34:30.394 [java] [DEBUG] found java executable in java.exe
+21-04-2021 22:34:30.396 [java] [DEBUG] running - java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+21-04-2021 22:34:30.396 [java] [DEBUG] stdout/stderr is logged to logs\6736-java.exe.out
+21-04-2021 22:34:30.412 [Gauge] [DEBUG] Checking updates...
+21-04-2021 22:34:30.419 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+21-04-2021 22:34:31.481 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+21-04-2021 22:34:31.679 [java] [DEBUG] multithreading is set to false
+21-04-2021 22:34:33.167 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+21-04-2021 22:34:34.060 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+21-04-2021 22:34:34.706 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+21-04-2021 22:34:34.706 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+21-04-2021 22:34:34.706 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+21-04-2021 22:34:43.885 [java] [DEBUG] Scanning packages for steps
+21-04-2021 22:34:44.065 [java] [DEBUG] Comparing 'test.homeTest.goToUrl' and 'test.homeTest.goToUrl'
+21-04-2021 22:34:44.068 [java] [DEBUG] Found Go to the demo site login page in current project scope.
+21-04-2021 22:34:44.068 [java] [DEBUG] Scanning packages for hooks
+21-04-2021 22:34:44.068 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+21-04-2021 22:34:44.068 [java] [DEBUG] 	Go to the demo site login page : public void goToUrl()
+21-04-2021 22:34:45.191 [java] [DEBUG] gauge-java took 13627milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+21-04-2021 22:34:45.191 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 13627
+21-04-2021 22:34:45.191 [java] [DEBUG] starting gRPC server...
+21-04-2021 22:34:45.843 [java] [DEBUG] started gRPC server on port 50090
+21-04-2021 22:34:45.843 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 50090
+21-04-2021 22:34:46.366 [Gauge] [DEBUG] Successfully made the connection with runner with port: 50090
+21-04-2021 22:34:46.366 [Gauge] [DEBUG] Validation started.
+21-04-2021 22:34:52.584 [Gauge] [DEBUG] Validation completed.
+21-04-2021 22:34:52.606 [Gauge] [DEBUG] Run started
+21-04-2021 22:34:52.609 [Gauge] [DEBUG] Starting Html Report plugin
+21-04-2021 22:34:52.677 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 50093
+21-04-2021 22:34:52.679 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 50093
+21-04-2021 22:34:52.679 [Gauge] [DEBUG] Initialising suite data store.
+21-04-2021 22:34:55.208 [java] [ERROR] Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 19795
+21-04-2021 22:34:55.208 [java] [ERROR] Only local connections are allowed.
+21-04-2021 22:34:55.208 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+21-04-2021 22:34:55.257 [java] [ERROR] ChromeDriver was started successfully.
+21-04-2021 22:35:09.490 [java] [ERROR] Nis 21, 2021 10:35:09 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+21-04-2021 22:35:09.491 [java] [ERROR] INFO: Detected dialect: W3C
+21-04-2021 22:35:11.294 [java] [DEBUG] Executing 'Go to the demo site login page' using 'class test.homeTest.goToUrl
+21-04-2021 22:35:20.997 [html-report] [DEBUG] Transformed SuiteResult to report structure
+21-04-2021 22:35:21.203 [html-report] [INFO] Successfully generated html-report to => C:\Program Files\webAutomationWithGauge\reports\html-report\index.html
+21-04-2021 22:35:21.203 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\onat\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+21-04-2021 22:35:21.203 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+21-04-2021 22:35:22.433 [Gauge] [DEBUG] Runner with PID:6736 has exited
+21-04-2021 22:35:22.433 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+21-04-2021 22:35:22.433 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+21-04-2021 22:35:22.460 [Gauge] [INFO] 
+Total time taken: 28.176s
+21-04-2021 23:53:55.675 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Program Files\webAutomationWithGauge\.gauge\screenshots
+21-04-2021 23:53:55.678 [Gauge] [DEBUG] Plugin java is already installed.
+21-04-2021 23:53:55.758 [Gauge] [DEBUG] Plugin html-report is already installed.
+21-04-2021 23:53:55.761 [Gauge] [DEBUG] Parsing started.
+21-04-2021 23:53:55.761 [Gauge] [DEBUG] Started concepts parsing.
+21-04-2021 23:53:55.766 [Gauge] [DEBUG] 0 concepts parsing completed.
+21-04-2021 23:53:55.767 [Gauge] [DEBUG] Started specifications parsing.
+21-04-2021 23:53:55.799 [Gauge] [DEBUG] 1 specifications parsing completed.
+21-04-2021 23:53:55.799 [Gauge] [DEBUG] Parsing completed.
+21-04-2021 23:53:56.252 [java] [DEBUG] ***** Printing Properties/Env Values *****
+21-04-2021 23:53:56.252 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\nodejs\;C:\Program Files\Gauge\bin;C:\Program Files\Java\jdk-16\bin;D:\opencv\anaconda3;D:\opencv\anaconda3\Library\mingw-w64\bin;D:\opencv\anaconda3\Library\usr\bin;D:\opencv\anaconda3\Library\bin;D:\opencv\anaconda3\Scripts;C:\Users\onat\AppData\Roaming\npm;C:\Users\onat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\onat\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+21-04-2021 23:53:56.252 [java] [DEBUG] JAVA_HOME: 
+21-04-2021 23:53:56.252 [java] [DEBUG] gauge_project_root: C:\Program Files\webAutomationWithGauge
+21-04-2021 23:53:56.253 [java] [DEBUG] gauge_parallel_streams_count: 2
+21-04-2021 23:53:56.253 [java] [DEBUG] gauge_reports_dir: reports
+21-04-2021 23:53:56.253 [java] [DEBUG] overwrite_reports: true
+21-04-2021 23:53:56.253 [java] [DEBUG] logs_directory: logs
+21-04-2021 23:53:56.253 [java] [DEBUG] enable_multithreading: false
+21-04-2021 23:53:56.253 [java] [DEBUG] gauge_specs_dir: specs
+21-04-2021 23:53:56.253 [java] [DEBUG] csv_delimiter: ,
+21-04-2021 23:53:56.253 [java] [DEBUG] gauge_java_home: 
+21-04-2021 23:53:56.253 [java] [DEBUG] gauge_custom_build_path: 
+21-04-2021 23:53:56.253 [java] [DEBUG] gauge_additional_libs: libs/*
+21-04-2021 23:53:56.253 [java] [DEBUG] gauge_jvm_args: 
+21-04-2021 23:53:56.253 [java] [DEBUG] gauge_custom_compile_dir: 
+21-04-2021 23:53:56.253 [java] [DEBUG] gauge_clear_state_level: scenario
+21-04-2021 23:53:56.253 [java] [DEBUG] ***** END *****
+21-04-2021 23:53:56.253 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+21-04-2021 23:53:56.301 [java] [ERROR] Installed version of gauge-java (0.7.13) does not match with dependency gauge-java () specified in pom.xml file
+21-04-2021 23:53:56.301 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk-16!\java.base;C:\Program Files\Java\jdk-16!\java.compiler;C:\Program Files\Java\jdk-16!\java.datatransfer;C:\Program Files\Java\jdk-16!\java.desktop;C:\Program Files\Java\jdk-16!\java.instrument;C:\Program Files\Java\jdk-16!\java.logging;C:\Program Files\Java\jdk-16!\java.management;C:\Program Files\Java\jdk-16!\java.management.rmi;C:\Program Files\Java\jdk-16!\java.naming;C:\Program Files\Java\jdk-16!\java.net.http;C:\Program Files\Java\jdk-16!\java.prefs;C:\Program Files\Java\jdk-16!\java.rmi;C:\Program Files\Java\jdk-16!\java.scripting;C:\Program Files\Java\jdk-16!\java.se;C:\Program Files\Java\jdk-16!\java.security.jgss;C:\Program Files\Java\jdk-16!\java.security.sasl;C:\Program Files\Java\jdk-16!\java.smartcardio;C:\Program Files\Java\jdk-16!\java.sql;C:\Program Files\Java\jdk-16!\java.sql.rowset;C:\Program Files\Java\jdk-16!\java.transaction.xa;C:\Program Files\Java\jdk-16!\java.xml;C:\Program Files\Java\jdk-16!\java.xml.crypto;C:\Program Files\Java\jdk-16!\jdk.accessibility;C:\Program Files\Java\jdk-16!\jdk.attach;C:\Program Files\Java\jdk-16!\jdk.charsets;C:\Program Files\Java\jdk-16!\jdk.compiler;C:\Program Files\Java\jdk-16!\jdk.crypto.cryptoki;C:\Program Files\Java\jdk-16!\jdk.crypto.ec;C:\Program Files\Java\jdk-16!\jdk.crypto.mscapi;C:\Program Files\Java\jdk-16!\jdk.dynalink;C:\Program Files\Java\jdk-16!\jdk.editpad;C:\Program Files\Java\jdk-16!\jdk.hotspot.agent;C:\Program Files\Java\jdk-16!\jdk.httpserver;C:\Program Files\Java\jdk-16!\jdk.incubator.foreign;C:\Program Files\Java\jdk-16!\jdk.incubator.vector;C:\Program Files\Java\jdk-16!\jdk.internal.ed;C:\Program Files\Java\jdk-16!\jdk.internal.jvmstat;C:\Program Files\Java\jdk-16!\jdk.internal.le;C:\Program Files\Java\jdk-16!\jdk.internal.opt;C:\Program Files\Java\jdk-16!\jdk.internal.vm.ci;C:\Program Files\Java\jdk-16!\jdk.jartool;C:\Program Files\Java\jdk-16!\jdk.javadoc;C:\Program Files\Java\jdk-16!\jdk.jcmd;C:\Program Files\Java\jdk-16!\jdk.jconsole;C:\Program Files\Java\jdk-16!\jdk.jdeps;C:\Program Files\Java\jdk-16!\jdk.jdi;C:\Program Files\Java\jdk-16!\jdk.jdwp.agent;C:\Program Files\Java\jdk-16!\jdk.jfr;C:\Program Files\Java\jdk-16!\jdk.jlink;C:\Program Files\Java\jdk-16!\jdk.jpackage;C:\Program Files\Java\jdk-16!\jdk.jshell;C:\Program Files\Java\jdk-16!\jdk.jsobject;C:\Program Files\Java\jdk-16!\jdk.jstatd;C:\Program Files\Java\jdk-16!\jdk.localedata;C:\Program Files\Java\jdk-16!\jdk.management;C:\Program Files\Java\jdk-16!\jdk.management.agent;C:\Program Files\Java\jdk-16!\jdk.management.jfr;C:\Program Files\Java\jdk-16!\jdk.naming.dns;C:\Program Files\Java\jdk-16!\jdk.naming.rmi;C:\Program Files\Java\jdk-16!\jdk.net;C:\Program Files\Java\jdk-16!\jdk.nio.mapmode;C:\Program Files\Java\jdk-16!\jdk.sctp;C:\Program Files\Java\jdk-16!\jdk.security.auth;C:\Program Files\Java\jdk-16!\jdk.security.jgss;C:\Program Files\Java\jdk-16!\jdk.unsupported;C:\Program Files\Java\jdk-16!\jdk.unsupported.desktop;C:\Program Files\Java\jdk-16!\jdk.xml.dom;C:\Program Files\Java\jdk-16!\jdk.zipfs;C:\Program Files\webAutomationWithGauge\target\test-classes;C:\Users\onat\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\onat\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\onat\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\onat\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\onat\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\onat\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\onat\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\onat\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\onat\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\onat\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\onat\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\onat\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\onat\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\onat\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\onat\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\onat\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\onat\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\onat\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\onat\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\onat\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\onat\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\onat\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\onat\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.0\webdrivermanager-4.2.0.jar;C:\Users\onat\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\onat\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\onat\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\onat\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\onat\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\onat\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\onat\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\onat\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar;C:\Users\onat\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\onat\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+21-04-2021 23:53:56.327 [java] [DEBUG] found java executable in java.exe
+21-04-2021 23:53:56.327 [java] [DEBUG] running - java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+21-04-2021 23:53:56.327 [java] [DEBUG] stdout/stderr is logged to logs\6632-java.exe.out
+21-04-2021 23:53:57.755 [java] [DEBUG] multithreading is set to false
+21-04-2021 23:53:59.643 [Gauge] [DEBUG] Checking updates...
+21-04-2021 23:53:59.669 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+21-04-2021 23:53:59.937 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+21-04-2021 23:54:00.287 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+21-04-2021 23:54:00.287 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+21-04-2021 23:54:00.287 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+21-04-2021 23:54:04.014 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+21-04-2021 23:54:04.912 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+21-04-2021 23:54:07.782 [java] [DEBUG] Scanning packages for steps
+21-04-2021 23:54:07.956 [java] [DEBUG] Comparing 'test.pageControlTest.checkUserNameField' and 'test.pageControlTest.checkUserNameField'
+21-04-2021 23:54:07.956 [java] [DEBUG] Found Check User name on login page in current project scope.
+21-04-2021 23:54:07.956 [java] [DEBUG] Comparing 'test.homeTest.goToUrl' and 'test.homeTest.goToUrl'
+21-04-2021 23:54:07.956 [java] [DEBUG] Found Go to the demo site login page in current project scope.
+21-04-2021 23:54:07.956 [java] [DEBUG] Comparing 'test.pageControlTest.checkTitle' and 'test.pageControlTest.checkTitle'
+21-04-2021 23:54:07.956 [java] [DEBUG] Found Check title login page in current project scope.
+21-04-2021 23:54:07.956 [java] [DEBUG] Comparing 'test.pageControlTest.checkHeader' and 'test.pageControlTest.checkHeader'
+21-04-2021 23:54:07.956 [java] [DEBUG] Found Check Header on login page in current project scope.
+21-04-2021 23:54:07.956 [java] [DEBUG] Comparing 'test.pageControlTest.checkInfoMessage' and 'test.pageControlTest.checkInfoMessage'
+21-04-2021 23:54:07.956 [java] [DEBUG] Found Check Info Message on login page in current project scope.
+21-04-2021 23:54:07.956 [java] [DEBUG] Comparing 'test.pageControlTest.checkLoginButton' and 'test.pageControlTest.checkLoginButton'
+21-04-2021 23:54:07.956 [java] [DEBUG] Found Check Login button in current project scope.
+21-04-2021 23:54:07.956 [java] [DEBUG] Comparing 'test.pageControlTest.checkPasswordField' and 'test.pageControlTest.checkPasswordField'
+21-04-2021 23:54:07.956 [java] [DEBUG] Found Check password field on login page in current project scope.
+21-04-2021 23:54:07.956 [java] [DEBUG] Comparing 'test.pageControlTest.checkStatusMessage' and 'test.pageControlTest.checkStatusMessage'
+21-04-2021 23:54:07.956 [java] [DEBUG] Found Check Status Message on login page in current project scope.
+21-04-2021 23:54:07.958 [java] [DEBUG] Scanning packages for hooks
+21-04-2021 23:54:07.997 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+21-04-2021 23:54:07.997 [java] [DEBUG] 	Check Status Message on login page : public void checkStatusMessage()
+21-04-2021 23:54:07.997 [java] [DEBUG] 	Check Info Message on login page : public void checkInfoMessage()
+21-04-2021 23:54:07.997 [java] [DEBUG] 	Check Header on login page : public void checkHeader()
+21-04-2021 23:54:07.997 [java] [DEBUG] 	Check User name on login page : public void checkUserNameField()
+21-04-2021 23:54:07.997 [java] [DEBUG] 	Go to the demo site login page : public void goToUrl()
+21-04-2021 23:54:07.997 [java] [DEBUG] 	Check Login button : public void checkLoginButton()
+21-04-2021 23:54:07.997 [java] [DEBUG] 	Check password field on login page : public void checkPasswordField()
+21-04-2021 23:54:07.997 [java] [DEBUG] 	Check title login page : public void checkTitle()
+21-04-2021 23:54:08.340 [java] [DEBUG] gauge-java took 10829milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+21-04-2021 23:54:08.340 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 10829
+21-04-2021 23:54:08.365 [java] [DEBUG] starting gRPC server...
+21-04-2021 23:54:08.962 [java] [DEBUG] started gRPC server on port 52490
+21-04-2021 23:54:08.997 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52490
+21-04-2021 23:54:09.453 [Gauge] [DEBUG] Successfully made the connection with runner with port: 52490
+21-04-2021 23:54:09.453 [Gauge] [DEBUG] Validation started.
+21-04-2021 23:54:13.953 [Gauge] [DEBUG] Validation completed.
+21-04-2021 23:54:13.957 [Gauge] [DEBUG] Run started
+21-04-2021 23:54:13.994 [Gauge] [DEBUG] Starting Html Report plugin
+21-04-2021 23:54:14.108 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52496
+21-04-2021 23:54:14.115 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 52496
+21-04-2021 23:54:14.115 [Gauge] [DEBUG] Initialising suite data store.
+21-04-2021 23:54:19.479 [java] [ERROR] Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 12107
+21-04-2021 23:54:19.482 [java] [ERROR] Only local connections are allowed.
+21-04-2021 23:54:19.482 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+21-04-2021 23:54:19.491 [java] [ERROR] ChromeDriver was started successfully.
+21-04-2021 23:54:31.424 [java] [ERROR] Nis 21, 2021 11:54:31 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+21-04-2021 23:54:31.424 [java] [ERROR] INFO: Detected dialect: W3C
+21-04-2021 23:54:32.541 [java] [DEBUG] Executing 'Go to the demo site login page' using 'class test.homeTest.goToUrl
+21-04-2021 23:54:34.428 [java] [DEBUG] Executing 'Check title login page' using 'class test.pageControlTest.checkTitle
+21-04-2021 23:54:34.637 [java] [DEBUG] Executing 'Check Header on login page' using 'class test.pageControlTest.checkHeader
+21-04-2021 23:54:35.063 [java] [DEBUG] Executing 'Check Status Message on login page' using 'class test.pageControlTest.checkStatusMessage
+21-04-2021 23:54:35.205 [java] [DEBUG] Executing 'Check Info Message on login page' using 'class test.pageControlTest.checkInfoMessage
+21-04-2021 23:54:39.494 [html-report] [DEBUG] Transformed SuiteResult to report structure
+21-04-2021 23:54:39.596 [html-report] [INFO] Successfully generated html-report to => C:\Program Files\webAutomationWithGauge\reports\html-report\index.html
+21-04-2021 23:54:39.596 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\onat\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+21-04-2021 23:54:39.596 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+21-04-2021 23:54:40.336 [Gauge] [DEBUG] Runner with PID:6632 has exited
+21-04-2021 23:54:40.336 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+21-04-2021 23:54:40.336 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+21-04-2021 23:54:40.336 [Gauge] [INFO] 
+Total time taken: 25.507s
+21-04-2021 23:57:35.129 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Program Files\webAutomationWithGauge\.gauge\screenshots
+21-04-2021 23:57:35.131 [Gauge] [DEBUG] Plugin java is already installed.
+21-04-2021 23:57:35.133 [Gauge] [DEBUG] Plugin html-report is already installed.
+21-04-2021 23:57:35.134 [Gauge] [DEBUG] Parsing started.
+21-04-2021 23:57:35.134 [Gauge] [DEBUG] Started concepts parsing.
+21-04-2021 23:57:35.308 [Gauge] [DEBUG] 0 concepts parsing completed.
+21-04-2021 23:57:35.308 [Gauge] [DEBUG] Started specifications parsing.
+21-04-2021 23:57:35.393 [Gauge] [DEBUG] 1 specifications parsing completed.
+21-04-2021 23:57:35.393 [Gauge] [DEBUG] Parsing completed.
+21-04-2021 23:57:35.778 [java] [DEBUG] ***** Printing Properties/Env Values *****
+21-04-2021 23:57:35.778 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\nodejs\;C:\Program Files\Gauge\bin;C:\Program Files\Java\jdk-16\bin;D:\opencv\anaconda3;D:\opencv\anaconda3\Library\mingw-w64\bin;D:\opencv\anaconda3\Library\usr\bin;D:\opencv\anaconda3\Library\bin;D:\opencv\anaconda3\Scripts;C:\Users\onat\AppData\Roaming\npm;C:\Users\onat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\onat\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+21-04-2021 23:57:35.778 [java] [DEBUG] JAVA_HOME: 
+21-04-2021 23:57:35.778 [java] [DEBUG] gauge_project_root: C:\Program Files\webAutomationWithGauge
+21-04-2021 23:57:35.779 [java] [DEBUG] gauge_parallel_streams_count: 2
+21-04-2021 23:57:35.779 [java] [DEBUG] gauge_reports_dir: reports
+21-04-2021 23:57:35.779 [java] [DEBUG] overwrite_reports: true
+21-04-2021 23:57:35.779 [java] [DEBUG] logs_directory: logs
+21-04-2021 23:57:35.779 [java] [DEBUG] enable_multithreading: false
+21-04-2021 23:57:35.779 [java] [DEBUG] gauge_specs_dir: specs
+21-04-2021 23:57:35.779 [java] [DEBUG] csv_delimiter: ,
+21-04-2021 23:57:35.779 [java] [DEBUG] gauge_java_home: 
+21-04-2021 23:57:35.779 [java] [DEBUG] gauge_custom_build_path: 
+21-04-2021 23:57:35.779 [java] [DEBUG] gauge_additional_libs: libs/*
+21-04-2021 23:57:35.779 [java] [DEBUG] gauge_jvm_args: 
+21-04-2021 23:57:35.779 [java] [DEBUG] gauge_custom_compile_dir: 
+21-04-2021 23:57:35.779 [java] [DEBUG] gauge_clear_state_level: scenario
+21-04-2021 23:57:35.779 [java] [DEBUG] ***** END *****
+21-04-2021 23:57:35.779 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+21-04-2021 23:57:35.813 [java] [ERROR] Installed version of gauge-java (0.7.13) does not match with dependency gauge-java () specified in pom.xml file
+21-04-2021 23:57:35.813 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk-16!\java.base;C:\Program Files\Java\jdk-16!\java.compiler;C:\Program Files\Java\jdk-16!\java.datatransfer;C:\Program Files\Java\jdk-16!\java.desktop;C:\Program Files\Java\jdk-16!\java.instrument;C:\Program Files\Java\jdk-16!\java.logging;C:\Program Files\Java\jdk-16!\java.management;C:\Program Files\Java\jdk-16!\java.management.rmi;C:\Program Files\Java\jdk-16!\java.naming;C:\Program Files\Java\jdk-16!\java.net.http;C:\Program Files\Java\jdk-16!\java.prefs;C:\Program Files\Java\jdk-16!\java.rmi;C:\Program Files\Java\jdk-16!\java.scripting;C:\Program Files\Java\jdk-16!\java.se;C:\Program Files\Java\jdk-16!\java.security.jgss;C:\Program Files\Java\jdk-16!\java.security.sasl;C:\Program Files\Java\jdk-16!\java.smartcardio;C:\Program Files\Java\jdk-16!\java.sql;C:\Program Files\Java\jdk-16!\java.sql.rowset;C:\Program Files\Java\jdk-16!\java.transaction.xa;C:\Program Files\Java\jdk-16!\java.xml;C:\Program Files\Java\jdk-16!\java.xml.crypto;C:\Program Files\Java\jdk-16!\jdk.accessibility;C:\Program Files\Java\jdk-16!\jdk.attach;C:\Program Files\Java\jdk-16!\jdk.charsets;C:\Program Files\Java\jdk-16!\jdk.compiler;C:\Program Files\Java\jdk-16!\jdk.crypto.cryptoki;C:\Program Files\Java\jdk-16!\jdk.crypto.ec;C:\Program Files\Java\jdk-16!\jdk.crypto.mscapi;C:\Program Files\Java\jdk-16!\jdk.dynalink;C:\Program Files\Java\jdk-16!\jdk.editpad;C:\Program Files\Java\jdk-16!\jdk.hotspot.agent;C:\Program Files\Java\jdk-16!\jdk.httpserver;C:\Program Files\Java\jdk-16!\jdk.incubator.foreign;C:\Program Files\Java\jdk-16!\jdk.incubator.vector;C:\Program Files\Java\jdk-16!\jdk.internal.ed;C:\Program Files\Java\jdk-16!\jdk.internal.jvmstat;C:\Program Files\Java\jdk-16!\jdk.internal.le;C:\Program Files\Java\jdk-16!\jdk.internal.opt;C:\Program Files\Java\jdk-16!\jdk.internal.vm.ci;C:\Program Files\Java\jdk-16!\jdk.jartool;C:\Program Files\Java\jdk-16!\jdk.javadoc;C:\Program Files\Java\jdk-16!\jdk.jcmd;C:\Program Files\Java\jdk-16!\jdk.jconsole;C:\Program Files\Java\jdk-16!\jdk.jdeps;C:\Program Files\Java\jdk-16!\jdk.jdi;C:\Program Files\Java\jdk-16!\jdk.jdwp.agent;C:\Program Files\Java\jdk-16!\jdk.jfr;C:\Program Files\Java\jdk-16!\jdk.jlink;C:\Program Files\Java\jdk-16!\jdk.jpackage;C:\Program Files\Java\jdk-16!\jdk.jshell;C:\Program Files\Java\jdk-16!\jdk.jsobject;C:\Program Files\Java\jdk-16!\jdk.jstatd;C:\Program Files\Java\jdk-16!\jdk.localedata;C:\Program Files\Java\jdk-16!\jdk.management;C:\Program Files\Java\jdk-16!\jdk.management.agent;C:\Program Files\Java\jdk-16!\jdk.management.jfr;C:\Program Files\Java\jdk-16!\jdk.naming.dns;C:\Program Files\Java\jdk-16!\jdk.naming.rmi;C:\Program Files\Java\jdk-16!\jdk.net;C:\Program Files\Java\jdk-16!\jdk.nio.mapmode;C:\Program Files\Java\jdk-16!\jdk.sctp;C:\Program Files\Java\jdk-16!\jdk.security.auth;C:\Program Files\Java\jdk-16!\jdk.security.jgss;C:\Program Files\Java\jdk-16!\jdk.unsupported;C:\Program Files\Java\jdk-16!\jdk.unsupported.desktop;C:\Program Files\Java\jdk-16!\jdk.xml.dom;C:\Program Files\Java\jdk-16!\jdk.zipfs;C:\Program Files\webAutomationWithGauge\target\test-classes;C:\Users\onat\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\onat\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\onat\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\onat\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\onat\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\onat\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\onat\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\onat\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\onat\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\onat\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\onat\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\onat\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\onat\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\onat\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\onat\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\onat\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\onat\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\onat\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\onat\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\onat\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\onat\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\onat\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\onat\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.0\webdrivermanager-4.2.0.jar;C:\Users\onat\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\onat\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\onat\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\onat\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\onat\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\onat\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\onat\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\onat\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar;C:\Users\onat\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\onat\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+21-04-2021 23:57:35.817 [java] [DEBUG] found java executable in java.exe
+21-04-2021 23:57:35.817 [java] [DEBUG] running - java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+21-04-2021 23:57:35.818 [java] [DEBUG] stdout/stderr is logged to logs\4300-java.exe.out
+21-04-2021 23:57:37.437 [java] [DEBUG] multithreading is set to false
+21-04-2021 23:57:39.011 [Gauge] [DEBUG] Checking updates...
+21-04-2021 23:57:39.015 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+21-04-2021 23:57:39.749 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+21-04-2021 23:57:39.752 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+21-04-2021 23:57:40.201 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+21-04-2021 23:57:40.549 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+21-04-2021 23:57:40.549 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+21-04-2021 23:57:40.556 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+21-04-2021 23:57:50.397 [java] [DEBUG] gauge-java took 13090milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+21-04-2021 23:57:50.397 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 13090
+21-04-2021 23:57:50.398 [java] [DEBUG] starting gRPC server...
+21-04-2021 23:57:50.971 [java] [DEBUG] started gRPC server on port 52700
+21-04-2021 23:57:50.985 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52700
+21-04-2021 23:57:51.529 [java] [DEBUG] Scanning packages for steps
+21-04-2021 23:57:51.529 [java] [DEBUG] Comparing 'test.pageControlTest.checkUserNameField' and 'test.pageControlTest.checkUserNameField'
+21-04-2021 23:57:51.529 [java] [DEBUG] Found Check User name on login page in current project scope.
+21-04-2021 23:57:51.529 [java] [DEBUG] Comparing 'test.homeTest.goToUrl' and 'test.homeTest.goToUrl'
+21-04-2021 23:57:51.529 [java] [DEBUG] Found Go to the demo site login page in current project scope.
+21-04-2021 23:57:51.529 [java] [DEBUG] Comparing 'test.pageControlTest.checkTitle' and 'test.pageControlTest.checkTitle'
+21-04-2021 23:57:51.530 [java] [DEBUG] Found Check title login page in current project scope.
+21-04-2021 23:57:51.530 [java] [DEBUG] Comparing 'test.pageControlTest.checkHeader' and 'test.pageControlTest.checkHeader'
+21-04-2021 23:57:51.530 [java] [DEBUG] Found Check Header on login page in current project scope.
+21-04-2021 23:57:51.530 [java] [DEBUG] Comparing 'test.pageControlTest.checkInfoMessage' and 'test.pageControlTest.checkInfoMessage'
+21-04-2021 23:57:51.530 [java] [DEBUG] Found Check Info Message on login page in current project scope.
+21-04-2021 23:57:51.530 [java] [DEBUG] Comparing 'test.pageControlTest.checkLoginButton' and 'test.pageControlTest.checkLoginButton'
+21-04-2021 23:57:51.530 [java] [DEBUG] Found Check Login button in current project scope.
+21-04-2021 23:57:51.530 [java] [DEBUG] Comparing 'test.pageControlTest.checkPasswordField' and 'test.pageControlTest.checkPasswordField'
+21-04-2021 23:57:51.530 [java] [DEBUG] Found Check password field on login page in current project scope.
+21-04-2021 23:57:51.531 [java] [DEBUG] Comparing 'test.pageControlTest.checkStatusMessage' and 'test.pageControlTest.checkStatusMessage'
+21-04-2021 23:57:51.531 [java] [DEBUG] Found Check Status Message on login page in current project scope.
+21-04-2021 23:57:51.531 [java] [DEBUG] Scanning packages for hooks
+21-04-2021 23:57:51.531 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+21-04-2021 23:57:51.531 [java] [DEBUG] 	Check Status Message on login page : public void checkStatusMessage()
+21-04-2021 23:57:51.531 [java] [DEBUG] 	Check Info Message on login page : public void checkInfoMessage()
+21-04-2021 23:57:51.531 [java] [DEBUG] 	Check Header on login page : public void checkHeader()
+21-04-2021 23:57:51.531 [java] [DEBUG] 	Check User name on login page : public void checkUserNameField()
+21-04-2021 23:57:51.531 [java] [DEBUG] 	Go to the demo site login page : public void goToUrl()
+21-04-2021 23:57:51.531 [java] [DEBUG] 	Check Login button : public void checkLoginButton()
+21-04-2021 23:57:51.531 [java] [DEBUG] 	Check password field on login page : public void checkPasswordField()
+21-04-2021 23:57:51.531 [java] [DEBUG] 	Check title login page : public void checkTitle()
+21-04-2021 23:57:51.542 [Gauge] [DEBUG] Successfully made the connection with runner with port: 52700
+21-04-2021 23:57:51.542 [Gauge] [DEBUG] Validation started.
+21-04-2021 23:57:55.774 [Gauge] [DEBUG] Validation completed.
+21-04-2021 23:57:55.775 [Gauge] [DEBUG] Run started
+21-04-2021 23:57:55.778 [Gauge] [DEBUG] Starting Html Report plugin
+21-04-2021 23:57:55.830 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52707
+21-04-2021 23:57:55.831 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 52707
+21-04-2021 23:57:55.831 [Gauge] [DEBUG] Initialising suite data store.
+21-04-2021 23:57:58.106 [java] [ERROR] Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 6545
+21-04-2021 23:57:58.106 [java] [ERROR] Only local connections are allowed.
+21-04-2021 23:57:58.106 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+21-04-2021 23:57:58.133 [java] [ERROR] ChromeDriver was started successfully.
+21-04-2021 23:58:09.472 [java] [ERROR] Nis 21, 2021 11:58:09 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+21-04-2021 23:58:09.473 [java] [ERROR] INFO: Detected dialect: W3C
+21-04-2021 23:58:10.108 [java] [DEBUG] Executing 'Go to the demo site login page' using 'class test.homeTest.goToUrl
+21-04-2021 23:58:11.023 [java] [DEBUG] Executing 'Check title login page' using 'class test.pageControlTest.checkTitle
+21-04-2021 23:58:11.073 [java] [DEBUG] Executing 'Check Header on login page' using 'class test.pageControlTest.checkHeader
+21-04-2021 23:58:11.224 [java] [DEBUG] Executing 'Check Status Message on login page' using 'class test.pageControlTest.checkStatusMessage
+21-04-2021 23:58:11.384 [java] [DEBUG] Executing 'Check Info Message on login page' using 'class test.pageControlTest.checkInfoMessage
+21-04-2021 23:58:11.489 [java] [DEBUG] Executing 'Check User name on login page' using 'class test.pageControlTest.checkUserNameField
+21-04-2021 23:58:11.785 [java] [DEBUG] Executing 'Check password field on login page' using 'class test.pageControlTest.checkPasswordField
+21-04-2021 23:58:11.943 [java] [DEBUG] Executing 'Check Login button' using 'class test.pageControlTest.checkLoginButton
+21-04-2021 23:58:12.985 [html-report] [DEBUG] Transformed SuiteResult to report structure
+21-04-2021 23:58:13.096 [html-report] [INFO] Successfully generated html-report to => C:\Program Files\webAutomationWithGauge\reports\html-report\index.html
+21-04-2021 23:58:13.096 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\onat\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+21-04-2021 23:58:13.097 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+21-04-2021 23:58:14.318 [Gauge] [DEBUG] Runner with PID:4300 has exited
+21-04-2021 23:58:14.318 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+21-04-2021 23:58:14.319 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+21-04-2021 23:58:14.319 [Gauge] [INFO] 
+Total time taken: 17.183s
+22-04-2021 00:34:22.975 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Program Files\webAutomationWithGauge\.gauge\screenshots
+22-04-2021 00:34:22.999 [Gauge] [DEBUG] Plugin java is already installed.
+22-04-2021 00:34:23.010 [Gauge] [DEBUG] Plugin html-report is already installed.
+22-04-2021 00:34:23.028 [Gauge] [DEBUG] Parsing started.
+22-04-2021 00:34:23.028 [Gauge] [DEBUG] Started concepts parsing.
+22-04-2021 00:34:23.037 [Gauge] [DEBUG] 0 concepts parsing completed.
+22-04-2021 00:34:23.037 [Gauge] [DEBUG] Started specifications parsing.
+22-04-2021 00:34:23.071 [Gauge] [DEBUG] 1 specifications parsing completed.
+22-04-2021 00:34:23.141 [Gauge] [DEBUG] Parsing completed.
+22-04-2021 00:34:23.230 [java] [DEBUG] ***** Printing Properties/Env Values *****
+22-04-2021 00:34:23.230 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\nodejs\;C:\Program Files\Gauge\bin;C:\Program Files\Java\jdk-16\bin;D:\opencv\anaconda3;D:\opencv\anaconda3\Library\mingw-w64\bin;D:\opencv\anaconda3\Library\usr\bin;D:\opencv\anaconda3\Library\bin;D:\opencv\anaconda3\Scripts;C:\Users\onat\AppData\Roaming\npm;C:\Users\onat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\onat\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+22-04-2021 00:34:23.230 [java] [DEBUG] JAVA_HOME: 
+22-04-2021 00:34:23.230 [java] [DEBUG] gauge_project_root: C:\Program Files\webAutomationWithGauge
+22-04-2021 00:34:23.231 [java] [DEBUG] gauge_parallel_streams_count: 2
+22-04-2021 00:34:23.231 [java] [DEBUG] gauge_reports_dir: reports
+22-04-2021 00:34:23.231 [java] [DEBUG] overwrite_reports: true
+22-04-2021 00:34:23.231 [java] [DEBUG] logs_directory: logs
+22-04-2021 00:34:23.231 [java] [DEBUG] enable_multithreading: false
+22-04-2021 00:34:23.231 [java] [DEBUG] gauge_specs_dir: specs
+22-04-2021 00:34:23.231 [java] [DEBUG] csv_delimiter: ,
+22-04-2021 00:34:23.231 [java] [DEBUG] gauge_java_home: 
+22-04-2021 00:34:23.231 [java] [DEBUG] gauge_custom_build_path: 
+22-04-2021 00:34:23.231 [java] [DEBUG] gauge_additional_libs: libs/*
+22-04-2021 00:34:23.231 [java] [DEBUG] gauge_jvm_args: 
+22-04-2021 00:34:23.231 [java] [DEBUG] gauge_custom_compile_dir: 
+22-04-2021 00:34:23.231 [java] [DEBUG] gauge_clear_state_level: scenario
+22-04-2021 00:34:23.231 [java] [DEBUG] ***** END *****
+22-04-2021 00:34:23.276 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+22-04-2021 00:34:23.276 [java] [ERROR] Installed version of gauge-java (0.7.13) does not match with dependency gauge-java () specified in pom.xml file
+22-04-2021 00:34:23.276 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk-16!\java.base;C:\Program Files\Java\jdk-16!\java.compiler;C:\Program Files\Java\jdk-16!\java.datatransfer;C:\Program Files\Java\jdk-16!\java.desktop;C:\Program Files\Java\jdk-16!\java.instrument;C:\Program Files\Java\jdk-16!\java.logging;C:\Program Files\Java\jdk-16!\java.management;C:\Program Files\Java\jdk-16!\java.management.rmi;C:\Program Files\Java\jdk-16!\java.naming;C:\Program Files\Java\jdk-16!\java.net.http;C:\Program Files\Java\jdk-16!\java.prefs;C:\Program Files\Java\jdk-16!\java.rmi;C:\Program Files\Java\jdk-16!\java.scripting;C:\Program Files\Java\jdk-16!\java.se;C:\Program Files\Java\jdk-16!\java.security.jgss;C:\Program Files\Java\jdk-16!\java.security.sasl;C:\Program Files\Java\jdk-16!\java.smartcardio;C:\Program Files\Java\jdk-16!\java.sql;C:\Program Files\Java\jdk-16!\java.sql.rowset;C:\Program Files\Java\jdk-16!\java.transaction.xa;C:\Program Files\Java\jdk-16!\java.xml;C:\Program Files\Java\jdk-16!\java.xml.crypto;C:\Program Files\Java\jdk-16!\jdk.accessibility;C:\Program Files\Java\jdk-16!\jdk.attach;C:\Program Files\Java\jdk-16!\jdk.charsets;C:\Program Files\Java\jdk-16!\jdk.compiler;C:\Program Files\Java\jdk-16!\jdk.crypto.cryptoki;C:\Program Files\Java\jdk-16!\jdk.crypto.ec;C:\Program Files\Java\jdk-16!\jdk.crypto.mscapi;C:\Program Files\Java\jdk-16!\jdk.dynalink;C:\Program Files\Java\jdk-16!\jdk.editpad;C:\Program Files\Java\jdk-16!\jdk.hotspot.agent;C:\Program Files\Java\jdk-16!\jdk.httpserver;C:\Program Files\Java\jdk-16!\jdk.incubator.foreign;C:\Program Files\Java\jdk-16!\jdk.incubator.vector;C:\Program Files\Java\jdk-16!\jdk.internal.ed;C:\Program Files\Java\jdk-16!\jdk.internal.jvmstat;C:\Program Files\Java\jdk-16!\jdk.internal.le;C:\Program Files\Java\jdk-16!\jdk.internal.opt;C:\Program Files\Java\jdk-16!\jdk.internal.vm.ci;C:\Program Files\Java\jdk-16!\jdk.jartool;C:\Program Files\Java\jdk-16!\jdk.javadoc;C:\Program Files\Java\jdk-16!\jdk.jcmd;C:\Program Files\Java\jdk-16!\jdk.jconsole;C:\Program Files\Java\jdk-16!\jdk.jdeps;C:\Program Files\Java\jdk-16!\jdk.jdi;C:\Program Files\Java\jdk-16!\jdk.jdwp.agent;C:\Program Files\Java\jdk-16!\jdk.jfr;C:\Program Files\Java\jdk-16!\jdk.jlink;C:\Program Files\Java\jdk-16!\jdk.jpackage;C:\Program Files\Java\jdk-16!\jdk.jshell;C:\Program Files\Java\jdk-16!\jdk.jsobject;C:\Program Files\Java\jdk-16!\jdk.jstatd;C:\Program Files\Java\jdk-16!\jdk.localedata;C:\Program Files\Java\jdk-16!\jdk.management;C:\Program Files\Java\jdk-16!\jdk.management.agent;C:\Program Files\Java\jdk-16!\jdk.management.jfr;C:\Program Files\Java\jdk-16!\jdk.naming.dns;C:\Program Files\Java\jdk-16!\jdk.naming.rmi;C:\Program Files\Java\jdk-16!\jdk.net;C:\Program Files\Java\jdk-16!\jdk.nio.mapmode;C:\Program Files\Java\jdk-16!\jdk.sctp;C:\Program Files\Java\jdk-16!\jdk.security.auth;C:\Program Files\Java\jdk-16!\jdk.security.jgss;C:\Program Files\Java\jdk-16!\jdk.unsupported;C:\Program Files\Java\jdk-16!\jdk.unsupported.desktop;C:\Program Files\Java\jdk-16!\jdk.xml.dom;C:\Program Files\Java\jdk-16!\jdk.zipfs;C:\Program Files\webAutomationWithGauge\target\test-classes;C:\Users\onat\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\onat\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\onat\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\onat\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\onat\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\onat\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\onat\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\onat\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\onat\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\onat\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\onat\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\onat\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\onat\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\onat\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\onat\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\onat\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\onat\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\onat\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\onat\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\onat\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\onat\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\onat\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\onat\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.0\webdrivermanager-4.2.0.jar;C:\Users\onat\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\onat\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\onat\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\onat\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\onat\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\onat\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\onat\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\onat\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar;C:\Users\onat\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\onat\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+22-04-2021 00:34:23.300 [java] [DEBUG] found java executable in java.exe
+22-04-2021 00:34:23.300 [java] [DEBUG] running - java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+22-04-2021 00:34:23.300 [java] [DEBUG] stdout/stderr is logged to logs\8148-java.exe.out
+22-04-2021 00:34:24.573 [java] [DEBUG] multithreading is set to false
+22-04-2021 00:34:26.558 [Gauge] [DEBUG] Checking updates...
+22-04-2021 00:34:26.623 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+22-04-2021 00:34:27.390 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+22-04-2021 00:34:27.625 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+22-04-2021 00:34:27.625 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+22-04-2021 00:34:28.137 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+22-04-2021 00:34:28.137 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+22-04-2021 00:34:28.137 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+22-04-2021 00:34:37.027 [java] [DEBUG] Scanning packages for steps
+22-04-2021 00:34:37.027 [java] [DEBUG] Comparing 'test.pageControlTest.checkUserNameField' and 'test.pageControlTest.checkUserNameField'
+22-04-2021 00:34:37.027 [java] [DEBUG] Found Check User name on login page in current project scope.
+22-04-2021 00:34:37.027 [java] [DEBUG] Comparing 'test.homeTest.goToUrl' and 'test.homeTest.goToUrl'
+22-04-2021 00:34:37.027 [java] [DEBUG] Found Go to the demo site login page in current project scope.
+22-04-2021 00:34:37.027 [java] [DEBUG] Comparing 'test.loginTest.checkLoginStatusMessage' and 'test.loginTest.checkLoginStatusMessage'
+22-04-2021 00:34:37.027 [java] [DEBUG] Found Check success login status message on login page in current project scope.
+22-04-2021 00:34:37.027 [java] [DEBUG] Comparing 'test.pageControlTest.checkTitle' and 'test.pageControlTest.checkTitle'
+22-04-2021 00:34:37.027 [java] [DEBUG] Found Check title login page in current project scope.
+22-04-2021 00:34:37.027 [java] [DEBUG] Comparing 'test.loginTest.clickLoginButton' and 'test.loginTest.clickLoginButton'
+22-04-2021 00:34:37.027 [java] [DEBUG] Found Click login button on login page in current project scope.
+22-04-2021 00:34:37.027 [java] [DEBUG] Comparing 'test.loginTest.setPassword' and 'test.loginTest.setPassword'
+22-04-2021 00:34:37.027 [java] [DEBUG] Found Enter correct password on login page in current project scope.
+22-04-2021 00:34:37.028 [java] [DEBUG] Comparing 'test.pageControlTest.checkHeader' and 'test.pageControlTest.checkHeader'
+22-04-2021 00:34:37.028 [java] [DEBUG] Found Check Header on login page in current project scope.
+22-04-2021 00:34:37.028 [java] [DEBUG] Comparing 'test.pageControlTest.checkInfoMessage' and 'test.pageControlTest.checkInfoMessage'
+22-04-2021 00:34:37.028 [java] [DEBUG] Found Check Info Message on login page in current project scope.
+22-04-2021 00:34:37.028 [java] [DEBUG] Comparing 'test.loginTest.setUserName' and 'test.loginTest.setUserName'
+22-04-2021 00:34:37.028 [java] [DEBUG] Found Enter correct username on login page in current project scope.
+22-04-2021 00:34:37.028 [java] [DEBUG] Comparing 'test.pageControlTest.checkLoginButton' and 'test.pageControlTest.checkLoginButton'
+22-04-2021 00:34:37.028 [java] [DEBUG] Found Check Login button in current project scope.
+22-04-2021 00:34:37.028 [java] [DEBUG] Comparing 'test.pageControlTest.checkPasswordField' and 'test.pageControlTest.checkPasswordField'
+22-04-2021 00:34:37.028 [java] [DEBUG] Found Check password field on login page in current project scope.
+22-04-2021 00:34:37.028 [java] [DEBUG] Comparing 'test.pageControlTest.checkStatusMessage' and 'test.pageControlTest.checkStatusMessage'
+22-04-2021 00:34:37.028 [java] [DEBUG] Found Check Status Message on login page in current project scope.
+22-04-2021 00:34:37.028 [java] [DEBUG] Scanning packages for hooks
+22-04-2021 00:34:37.173 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+22-04-2021 00:34:37.265 [java] [DEBUG] 	Check Status Message on login page : public void checkStatusMessage()
+22-04-2021 00:34:37.265 [java] [DEBUG] 	Check success login status message on login page : public void checkLoginStatusMessage()
+22-04-2021 00:34:37.265 [java] [DEBUG] 	Check User name on login page : public void checkUserNameField()
+22-04-2021 00:34:37.265 [java] [DEBUG] 	Check password field on login page : public void checkPasswordField()
+22-04-2021 00:34:37.265 [java] [DEBUG] 	Check Info Message on login page : public void checkInfoMessage()
+22-04-2021 00:34:37.265 [java] [DEBUG] 	Check Header on login page : public void checkHeader()
+22-04-2021 00:34:37.265 [java] [DEBUG] 	Enter correct password on login page : public void setPassword()
+22-04-2021 00:34:37.265 [java] [DEBUG] 	Go to the demo site login page : public void goToUrl()
+22-04-2021 00:34:37.265 [java] [DEBUG] 	Check Login button : public void checkLoginButton()
+22-04-2021 00:34:37.265 [java] [DEBUG] 	Enter correct username on login page : public void setUserName()
+22-04-2021 00:34:37.265 [java] [DEBUG] 	Check title login page : public void checkTitle()
+22-04-2021 00:34:37.265 [java] [DEBUG] 	Click login button on login page : public void clickLoginButton()
+22-04-2021 00:34:38.571 [java] [DEBUG] gauge-java took 13923milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+22-04-2021 00:34:38.572 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 13923
+22-04-2021 00:34:38.572 [java] [DEBUG] starting gRPC server...
+22-04-2021 00:34:39.404 [java] [DEBUG] started gRPC server on port 52885
+22-04-2021 00:34:39.407 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52885
+22-04-2021 00:34:39.787 [Gauge] [DEBUG] Successfully made the connection with runner with port: 52885
+22-04-2021 00:34:39.787 [Gauge] [DEBUG] Validation started.
+22-04-2021 00:34:44.161 [Gauge] [DEBUG] Validation completed.
+22-04-2021 00:34:44.163 [Gauge] [DEBUG] Run started
+22-04-2021 00:34:44.165 [Gauge] [DEBUG] Starting Html Report plugin
+22-04-2021 00:34:44.225 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52888
+22-04-2021 00:34:44.226 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 52888
+22-04-2021 00:34:44.226 [Gauge] [DEBUG] Initialising suite data store.
+22-04-2021 00:34:46.442 [java] [ERROR] Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 26201
+22-04-2021 00:34:46.442 [java] [ERROR] Only local connections are allowed.
+22-04-2021 00:34:46.442 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+22-04-2021 00:34:46.453 [java] [ERROR] ChromeDriver was started successfully.
+22-04-2021 00:34:58.077 [java] [ERROR] Nis 22, 2021 12:34:58 ÖÖ org.openqa.selenium.remote.ProtocolHandshake createSession
+22-04-2021 00:34:58.077 [java] [ERROR] INFO: Detected dialect: W3C
+22-04-2021 00:34:58.721 [java] [DEBUG] Executing 'Go to the demo site login page' using 'class test.homeTest.goToUrl
+22-04-2021 00:34:59.825 [java] [DEBUG] Executing 'Enter correct username on login page' using 'class test.loginTest.setUserName
+22-04-2021 00:35:00.550 [java] [DEBUG] Executing 'Enter correct password on login page' using 'class test.loginTest.setPassword
+22-04-2021 00:35:00.917 [java] [DEBUG] Executing 'Click login button on login page' using 'class test.loginTest.clickLoginButton
+22-04-2021 00:35:01.668 [java] [DEBUG] Executing 'Check success login status message on login page' using 'class test.loginTest.checkLoginStatusMessage
+22-04-2021 00:35:03.941 [html-report] [DEBUG] Transformed SuiteResult to report structure
+22-04-2021 00:35:04.006 [html-report] [INFO] Successfully generated html-report to => C:\Program Files\webAutomationWithGauge\reports\html-report\index.html
+22-04-2021 00:35:04.006 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\onat\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+22-04-2021 00:35:04.006 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+22-04-2021 00:35:04.642 [Gauge] [DEBUG] Runner with PID:8148 has exited
+22-04-2021 00:35:04.642 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+22-04-2021 00:35:04.642 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22-04-2021 00:35:04.642 [Gauge] [INFO] 
+Total time taken: 19.774s
+22-04-2021 00:38:11.765 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Program Files\webAutomationWithGauge\.gauge\screenshots
+22-04-2021 00:38:11.850 [Gauge] [DEBUG] Plugin java is already installed.
+22-04-2021 00:38:11.851 [Gauge] [DEBUG] Plugin html-report is already installed.
+22-04-2021 00:38:11.852 [Gauge] [DEBUG] Parsing started.
+22-04-2021 00:38:11.852 [Gauge] [DEBUG] Started concepts parsing.
+22-04-2021 00:38:11.866 [Gauge] [DEBUG] 0 concepts parsing completed.
+22-04-2021 00:38:11.871 [Gauge] [DEBUG] Started specifications parsing.
+22-04-2021 00:38:11.909 [Gauge] [DEBUG] 1 specifications parsing completed.
+22-04-2021 00:38:11.910 [Gauge] [DEBUG] Parsing completed.
+22-04-2021 00:38:12.131 [java] [DEBUG] ***** Printing Properties/Env Values *****
+22-04-2021 00:38:12.131 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\nodejs\;C:\Program Files\Gauge\bin;C:\Program Files\Java\jdk-16\bin;D:\opencv\anaconda3;D:\opencv\anaconda3\Library\mingw-w64\bin;D:\opencv\anaconda3\Library\usr\bin;D:\opencv\anaconda3\Library\bin;D:\opencv\anaconda3\Scripts;C:\Users\onat\AppData\Roaming\npm;C:\Users\onat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\onat\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+22-04-2021 00:38:12.131 [java] [DEBUG] JAVA_HOME: 
+22-04-2021 00:38:12.131 [java] [DEBUG] gauge_project_root: C:\Program Files\webAutomationWithGauge
+22-04-2021 00:38:12.131 [java] [DEBUG] gauge_parallel_streams_count: 2
+22-04-2021 00:38:12.131 [java] [DEBUG] gauge_reports_dir: reports
+22-04-2021 00:38:12.131 [java] [DEBUG] overwrite_reports: true
+22-04-2021 00:38:12.131 [java] [DEBUG] logs_directory: logs
+22-04-2021 00:38:12.131 [java] [DEBUG] enable_multithreading: false
+22-04-2021 00:38:12.131 [java] [DEBUG] gauge_specs_dir: specs
+22-04-2021 00:38:12.131 [java] [DEBUG] csv_delimiter: ,
+22-04-2021 00:38:12.131 [java] [DEBUG] gauge_java_home: 
+22-04-2021 00:38:12.131 [java] [DEBUG] gauge_custom_build_path: 
+22-04-2021 00:38:12.132 [java] [DEBUG] gauge_additional_libs: libs/*
+22-04-2021 00:38:12.132 [java] [DEBUG] gauge_jvm_args: 
+22-04-2021 00:38:12.132 [java] [DEBUG] gauge_custom_compile_dir: 
+22-04-2021 00:38:12.132 [java] [DEBUG] gauge_clear_state_level: scenario
+22-04-2021 00:38:12.132 [java] [DEBUG] ***** END *****
+22-04-2021 00:38:12.175 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+22-04-2021 00:38:12.175 [java] [ERROR] Installed version of gauge-java (0.7.13) does not match with dependency gauge-java () specified in pom.xml file
+22-04-2021 00:38:12.175 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk-16!\java.base;C:\Program Files\Java\jdk-16!\java.compiler;C:\Program Files\Java\jdk-16!\java.datatransfer;C:\Program Files\Java\jdk-16!\java.desktop;C:\Program Files\Java\jdk-16!\java.instrument;C:\Program Files\Java\jdk-16!\java.logging;C:\Program Files\Java\jdk-16!\java.management;C:\Program Files\Java\jdk-16!\java.management.rmi;C:\Program Files\Java\jdk-16!\java.naming;C:\Program Files\Java\jdk-16!\java.net.http;C:\Program Files\Java\jdk-16!\java.prefs;C:\Program Files\Java\jdk-16!\java.rmi;C:\Program Files\Java\jdk-16!\java.scripting;C:\Program Files\Java\jdk-16!\java.se;C:\Program Files\Java\jdk-16!\java.security.jgss;C:\Program Files\Java\jdk-16!\java.security.sasl;C:\Program Files\Java\jdk-16!\java.smartcardio;C:\Program Files\Java\jdk-16!\java.sql;C:\Program Files\Java\jdk-16!\java.sql.rowset;C:\Program Files\Java\jdk-16!\java.transaction.xa;C:\Program Files\Java\jdk-16!\java.xml;C:\Program Files\Java\jdk-16!\java.xml.crypto;C:\Program Files\Java\jdk-16!\jdk.accessibility;C:\Program Files\Java\jdk-16!\jdk.attach;C:\Program Files\Java\jdk-16!\jdk.charsets;C:\Program Files\Java\jdk-16!\jdk.compiler;C:\Program Files\Java\jdk-16!\jdk.crypto.cryptoki;C:\Program Files\Java\jdk-16!\jdk.crypto.ec;C:\Program Files\Java\jdk-16!\jdk.crypto.mscapi;C:\Program Files\Java\jdk-16!\jdk.dynalink;C:\Program Files\Java\jdk-16!\jdk.editpad;C:\Program Files\Java\jdk-16!\jdk.hotspot.agent;C:\Program Files\Java\jdk-16!\jdk.httpserver;C:\Program Files\Java\jdk-16!\jdk.incubator.foreign;C:\Program Files\Java\jdk-16!\jdk.incubator.vector;C:\Program Files\Java\jdk-16!\jdk.internal.ed;C:\Program Files\Java\jdk-16!\jdk.internal.jvmstat;C:\Program Files\Java\jdk-16!\jdk.internal.le;C:\Program Files\Java\jdk-16!\jdk.internal.opt;C:\Program Files\Java\jdk-16!\jdk.internal.vm.ci;C:\Program Files\Java\jdk-16!\jdk.jartool;C:\Program Files\Java\jdk-16!\jdk.javadoc;C:\Program Files\Java\jdk-16!\jdk.jcmd;C:\Program Files\Java\jdk-16!\jdk.jconsole;C:\Program Files\Java\jdk-16!\jdk.jdeps;C:\Program Files\Java\jdk-16!\jdk.jdi;C:\Program Files\Java\jdk-16!\jdk.jdwp.agent;C:\Program Files\Java\jdk-16!\jdk.jfr;C:\Program Files\Java\jdk-16!\jdk.jlink;C:\Program Files\Java\jdk-16!\jdk.jpackage;C:\Program Files\Java\jdk-16!\jdk.jshell;C:\Program Files\Java\jdk-16!\jdk.jsobject;C:\Program Files\Java\jdk-16!\jdk.jstatd;C:\Program Files\Java\jdk-16!\jdk.localedata;C:\Program Files\Java\jdk-16!\jdk.management;C:\Program Files\Java\jdk-16!\jdk.management.agent;C:\Program Files\Java\jdk-16!\jdk.management.jfr;C:\Program Files\Java\jdk-16!\jdk.naming.dns;C:\Program Files\Java\jdk-16!\jdk.naming.rmi;C:\Program Files\Java\jdk-16!\jdk.net;C:\Program Files\Java\jdk-16!\jdk.nio.mapmode;C:\Program Files\Java\jdk-16!\jdk.sctp;C:\Program Files\Java\jdk-16!\jdk.security.auth;C:\Program Files\Java\jdk-16!\jdk.security.jgss;C:\Program Files\Java\jdk-16!\jdk.unsupported;C:\Program Files\Java\jdk-16!\jdk.unsupported.desktop;C:\Program Files\Java\jdk-16!\jdk.xml.dom;C:\Program Files\Java\jdk-16!\jdk.zipfs;C:\Program Files\webAutomationWithGauge\target\test-classes;C:\Users\onat\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\onat\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\onat\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\onat\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\onat\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\onat\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\onat\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\onat\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\onat\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\onat\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\onat\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\onat\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\onat\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\onat\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\onat\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\onat\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\onat\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\onat\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\onat\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\onat\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\onat\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\onat\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\onat\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.0\webdrivermanager-4.2.0.jar;C:\Users\onat\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\onat\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\onat\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\onat\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\onat\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\onat\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\onat\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\onat\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar;C:\Users\onat\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\onat\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+22-04-2021 00:38:12.202 [java] [DEBUG] found java executable in java.exe
+22-04-2021 00:38:12.202 [java] [DEBUG] running - java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+22-04-2021 00:38:12.202 [java] [DEBUG] stdout/stderr is logged to logs\8152-java.exe.out
+22-04-2021 00:38:13.602 [java] [DEBUG] multithreading is set to false
+22-04-2021 00:38:14.805 [Gauge] [DEBUG] Checking updates...
+22-04-2021 00:38:14.852 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+22-04-2021 00:38:16.079 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+22-04-2021 00:38:16.217 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+22-04-2021 00:38:17.303 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+22-04-2021 00:38:17.303 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+22-04-2021 00:38:17.303 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+22-04-2021 00:38:17.828 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+22-04-2021 00:38:22.908 [java] [DEBUG] gauge-java took 9479milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+22-04-2021 00:38:22.908 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 9479
+22-04-2021 00:38:22.908 [java] [DEBUG] starting gRPC server...
+22-04-2021 00:38:27.292 [java] [DEBUG] started gRPC server on port 52940
+22-04-2021 00:38:27.539 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52940
+22-04-2021 00:38:28.011 [java] [DEBUG] Scanning packages for steps
+22-04-2021 00:38:28.161 [java] [DEBUG] Comparing 'test.pageControlTest.checkUserNameField' and 'test.pageControlTest.checkUserNameField'
+22-04-2021 00:38:28.161 [java] [DEBUG] Found Check User name on login page in current project scope.
+22-04-2021 00:38:28.185 [java] [DEBUG] Comparing 'test.homeTest.goToUrl' and 'test.homeTest.goToUrl'
+22-04-2021 00:38:28.185 [java] [DEBUG] Found Go to the demo site login page in current project scope.
+22-04-2021 00:38:28.185 [java] [DEBUG] Comparing 'test.loginTest.checkLoginStatusMessage' and 'test.loginTest.checkLoginStatusMessage'
+22-04-2021 00:38:28.185 [java] [DEBUG] Found Check success login status message on login page in current project scope.
+22-04-2021 00:38:28.185 [java] [DEBUG] Comparing 'test.pageControlTest.checkTitle' and 'test.pageControlTest.checkTitle'
+22-04-2021 00:38:28.185 [java] [DEBUG] Found Check title login page in current project scope.
+22-04-2021 00:38:28.185 [java] [DEBUG] Comparing 'test.loginTest.clickLoginButton' and 'test.loginTest.clickLoginButton'
+22-04-2021 00:38:28.185 [java] [DEBUG] Found Click login button on login page in current project scope.
+22-04-2021 00:38:28.185 [java] [DEBUG] Comparing 'test.loginTest.setPassword' and 'test.loginTest.setPassword'
+22-04-2021 00:38:28.185 [java] [DEBUG] Found Enter correct password on login page in current project scope.
+22-04-2021 00:38:28.185 [java] [DEBUG] Comparing 'test.pageControlTest.checkHeader' and 'test.pageControlTest.checkHeader'
+22-04-2021 00:38:28.185 [java] [DEBUG] Found Check Header on login page in current project scope.
+22-04-2021 00:38:28.185 [java] [DEBUG] Comparing 'test.pageControlTest.checkInfoMessage' and 'test.pageControlTest.checkInfoMessage'
+22-04-2021 00:38:28.185 [java] [DEBUG] Found Check Info Message on login page in current project scope.
+22-04-2021 00:38:28.185 [java] [DEBUG] Comparing 'test.loginTest.setUserName' and 'test.loginTest.setUserName'
+22-04-2021 00:38:28.185 [java] [DEBUG] Found Enter correct username on login page in current project scope.
+22-04-2021 00:38:28.185 [java] [DEBUG] Comparing 'test.pageControlTest.checkLoginButton' and 'test.pageControlTest.checkLoginButton'
+22-04-2021 00:38:28.185 [java] [DEBUG] Found Check Login button in current project scope.
+22-04-2021 00:38:28.185 [java] [DEBUG] Comparing 'test.pageControlTest.checkPasswordField' and 'test.pageControlTest.checkPasswordField'
+22-04-2021 00:38:28.185 [java] [DEBUG] Found Check password field on login page in current project scope.
+22-04-2021 00:38:28.185 [java] [DEBUG] Comparing 'test.pageControlTest.checkStatusMessage' and 'test.pageControlTest.checkStatusMessage'
+22-04-2021 00:38:28.185 [java] [DEBUG] Found Check Status Message on login page in current project scope.
+22-04-2021 00:38:28.185 [java] [DEBUG] Scanning packages for hooks
+22-04-2021 00:38:28.185 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+22-04-2021 00:38:28.185 [java] [DEBUG] 	Check Status Message on login page : public void checkStatusMessage()
+22-04-2021 00:38:28.185 [java] [DEBUG] 	Check success login status message on login page : public void checkLoginStatusMessage()
+22-04-2021 00:38:28.185 [java] [DEBUG] 	Check User name on login page : public void checkUserNameField()
+22-04-2021 00:38:28.185 [java] [DEBUG] 	Check password field on login page : public void checkPasswordField()
+22-04-2021 00:38:28.185 [java] [DEBUG] 	Check Info Message on login page : public void checkInfoMessage()
+22-04-2021 00:38:28.185 [java] [DEBUG] 	Check Header on login page : public void checkHeader()
+22-04-2021 00:38:28.185 [java] [DEBUG] 	Enter correct password on login page : public void setPassword()
+22-04-2021 00:38:28.186 [java] [DEBUG] 	Go to the demo site login page : public void goToUrl()
+22-04-2021 00:38:28.186 [java] [DEBUG] 	Check Login button : public void checkLoginButton()
+22-04-2021 00:38:28.186 [java] [DEBUG] 	Enter correct username on login page : public void setUserName()
+22-04-2021 00:38:28.186 [java] [DEBUG] 	Check title login page : public void checkTitle()
+22-04-2021 00:38:28.186 [java] [DEBUG] 	Click login button on login page : public void clickLoginButton()
+22-04-2021 00:38:28.506 [Gauge] [DEBUG] Successfully made the connection with runner with port: 52940
+22-04-2021 00:38:28.506 [Gauge] [DEBUG] Validation started.
+22-04-2021 00:38:33.259 [Gauge] [DEBUG] Validation completed.
+22-04-2021 00:38:33.260 [Gauge] [DEBUG] Run started
+22-04-2021 00:38:33.263 [Gauge] [DEBUG] Starting Html Report plugin
+22-04-2021 00:38:33.291 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52943
+22-04-2021 00:38:33.461 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 52943
+22-04-2021 00:38:33.461 [Gauge] [DEBUG] Initialising suite data store.
+22-04-2021 00:38:35.722 [java] [ERROR] Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 44799
+22-04-2021 00:38:35.723 [java] [ERROR] Only local connections are allowed.
+22-04-2021 00:38:35.727 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+22-04-2021 00:38:35.754 [java] [ERROR] ChromeDriver was started successfully.
+22-04-2021 00:38:47.566 [java] [ERROR] Nis 22, 2021 12:38:47 ÖÖ org.openqa.selenium.remote.ProtocolHandshake createSession
+22-04-2021 00:38:47.566 [java] [ERROR] INFO: Detected dialect: W3C
+22-04-2021 00:38:48.209 [java] [DEBUG] Executing 'Go to the demo site login page' using 'class test.homeTest.goToUrl
+22-04-2021 00:38:49.286 [java] [DEBUG] Executing 'Enter correct username on login page' using 'class test.loginTest.setUserName
+22-04-2021 00:38:49.609 [java] [DEBUG] Executing 'Enter correct password on login page' using 'class test.loginTest.setPassword
+22-04-2021 00:38:49.894 [java] [DEBUG] Executing 'Click login button on login page' using 'class test.loginTest.clickLoginButton
+22-04-2021 00:38:50.470 [java] [DEBUG] Executing 'Check success login status message on login page' using 'class test.loginTest.checkLoginStatusMessage
+22-04-2021 00:38:54.095 [html-report] [DEBUG] Transformed SuiteResult to report structure
+22-04-2021 00:38:54.191 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+22-04-2021 00:38:54.211 [html-report] [INFO] Successfully generated html-report to => C:\Program Files\webAutomationWithGauge\reports\html-report\index.html
+22-04-2021 00:38:54.211 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\onat\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+22-04-2021 00:38:54.705 [Gauge] [DEBUG] Runner with PID:8152 has exited
+22-04-2021 00:38:54.705 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+22-04-2021 00:38:54.705 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+22-04-2021 00:38:54.705 [Gauge] [INFO] 
+Total time taken: 20.832s
+22-04-2021 00:40:28.540 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Program Files\webAutomationWithGauge\.gauge\screenshots
+22-04-2021 00:40:28.560 [Gauge] [DEBUG] Plugin java is already installed.
+22-04-2021 00:40:28.561 [Gauge] [DEBUG] Plugin html-report is already installed.
+22-04-2021 00:40:28.562 [Gauge] [DEBUG] Parsing started.
+22-04-2021 00:40:28.562 [Gauge] [DEBUG] Started concepts parsing.
+22-04-2021 00:40:28.567 [Gauge] [DEBUG] 0 concepts parsing completed.
+22-04-2021 00:40:28.568 [Gauge] [DEBUG] Started specifications parsing.
+22-04-2021 00:40:28.577 [Gauge] [DEBUG] 1 specifications parsing completed.
+22-04-2021 00:40:28.578 [Gauge] [DEBUG] Parsing completed.
+22-04-2021 00:40:28.742 [java] [DEBUG] ***** Printing Properties/Env Values *****
+22-04-2021 00:40:28.742 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\nodejs\;C:\Program Files\Gauge\bin;C:\Program Files\Java\jdk-16\bin;D:\opencv\anaconda3;D:\opencv\anaconda3\Library\mingw-w64\bin;D:\opencv\anaconda3\Library\usr\bin;D:\opencv\anaconda3\Library\bin;D:\opencv\anaconda3\Scripts;C:\Users\onat\AppData\Roaming\npm;C:\Users\onat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\onat\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+22-04-2021 00:40:28.742 [java] [DEBUG] JAVA_HOME: 
+22-04-2021 00:40:28.742 [java] [DEBUG] gauge_project_root: C:\Program Files\webAutomationWithGauge
+22-04-2021 00:40:28.742 [java] [DEBUG] gauge_parallel_streams_count: 2
+22-04-2021 00:40:28.743 [java] [DEBUG] gauge_reports_dir: reports
+22-04-2021 00:40:28.743 [java] [DEBUG] overwrite_reports: true
+22-04-2021 00:40:28.743 [java] [DEBUG] logs_directory: logs
+22-04-2021 00:40:28.743 [java] [DEBUG] enable_multithreading: false
+22-04-2021 00:40:28.743 [java] [DEBUG] gauge_specs_dir: specs
+22-04-2021 00:40:28.743 [java] [DEBUG] csv_delimiter: ,
+22-04-2021 00:40:28.743 [java] [DEBUG] gauge_java_home: 
+22-04-2021 00:40:28.743 [java] [DEBUG] gauge_custom_build_path: 
+22-04-2021 00:40:28.743 [java] [DEBUG] gauge_additional_libs: libs/*
+22-04-2021 00:40:28.743 [java] [DEBUG] gauge_jvm_args: 
+22-04-2021 00:40:28.743 [java] [DEBUG] gauge_custom_compile_dir: 
+22-04-2021 00:40:28.743 [java] [DEBUG] gauge_clear_state_level: scenario
+22-04-2021 00:40:28.743 [java] [DEBUG] ***** END *****
+22-04-2021 00:40:28.743 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+22-04-2021 00:40:28.800 [java] [ERROR] Installed version of gauge-java (0.7.13) does not match with dependency gauge-java () specified in pom.xml file
+22-04-2021 00:40:28.847 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk-16!\java.base;C:\Program Files\Java\jdk-16!\java.compiler;C:\Program Files\Java\jdk-16!\java.datatransfer;C:\Program Files\Java\jdk-16!\java.desktop;C:\Program Files\Java\jdk-16!\java.instrument;C:\Program Files\Java\jdk-16!\java.logging;C:\Program Files\Java\jdk-16!\java.management;C:\Program Files\Java\jdk-16!\java.management.rmi;C:\Program Files\Java\jdk-16!\java.naming;C:\Program Files\Java\jdk-16!\java.net.http;C:\Program Files\Java\jdk-16!\java.prefs;C:\Program Files\Java\jdk-16!\java.rmi;C:\Program Files\Java\jdk-16!\java.scripting;C:\Program Files\Java\jdk-16!\java.se;C:\Program Files\Java\jdk-16!\java.security.jgss;C:\Program Files\Java\jdk-16!\java.security.sasl;C:\Program Files\Java\jdk-16!\java.smartcardio;C:\Program Files\Java\jdk-16!\java.sql;C:\Program Files\Java\jdk-16!\java.sql.rowset;C:\Program Files\Java\jdk-16!\java.transaction.xa;C:\Program Files\Java\jdk-16!\java.xml;C:\Program Files\Java\jdk-16!\java.xml.crypto;C:\Program Files\Java\jdk-16!\jdk.accessibility;C:\Program Files\Java\jdk-16!\jdk.attach;C:\Program Files\Java\jdk-16!\jdk.charsets;C:\Program Files\Java\jdk-16!\jdk.compiler;C:\Program Files\Java\jdk-16!\jdk.crypto.cryptoki;C:\Program Files\Java\jdk-16!\jdk.crypto.ec;C:\Program Files\Java\jdk-16!\jdk.crypto.mscapi;C:\Program Files\Java\jdk-16!\jdk.dynalink;C:\Program Files\Java\jdk-16!\jdk.editpad;C:\Program Files\Java\jdk-16!\jdk.hotspot.agent;C:\Program Files\Java\jdk-16!\jdk.httpserver;C:\Program Files\Java\jdk-16!\jdk.incubator.foreign;C:\Program Files\Java\jdk-16!\jdk.incubator.vector;C:\Program Files\Java\jdk-16!\jdk.internal.ed;C:\Program Files\Java\jdk-16!\jdk.internal.jvmstat;C:\Program Files\Java\jdk-16!\jdk.internal.le;C:\Program Files\Java\jdk-16!\jdk.internal.opt;C:\Program Files\Java\jdk-16!\jdk.internal.vm.ci;C:\Program Files\Java\jdk-16!\jdk.jartool;C:\Program Files\Java\jdk-16!\jdk.javadoc;C:\Program Files\Java\jdk-16!\jdk.jcmd;C:\Program Files\Java\jdk-16!\jdk.jconsole;C:\Program Files\Java\jdk-16!\jdk.jdeps;C:\Program Files\Java\jdk-16!\jdk.jdi;C:\Program Files\Java\jdk-16!\jdk.jdwp.agent;C:\Program Files\Java\jdk-16!\jdk.jfr;C:\Program Files\Java\jdk-16!\jdk.jlink;C:\Program Files\Java\jdk-16!\jdk.jpackage;C:\Program Files\Java\jdk-16!\jdk.jshell;C:\Program Files\Java\jdk-16!\jdk.jsobject;C:\Program Files\Java\jdk-16!\jdk.jstatd;C:\Program Files\Java\jdk-16!\jdk.localedata;C:\Program Files\Java\jdk-16!\jdk.management;C:\Program Files\Java\jdk-16!\jdk.management.agent;C:\Program Files\Java\jdk-16!\jdk.management.jfr;C:\Program Files\Java\jdk-16!\jdk.naming.dns;C:\Program Files\Java\jdk-16!\jdk.naming.rmi;C:\Program Files\Java\jdk-16!\jdk.net;C:\Program Files\Java\jdk-16!\jdk.nio.mapmode;C:\Program Files\Java\jdk-16!\jdk.sctp;C:\Program Files\Java\jdk-16!\jdk.security.auth;C:\Program Files\Java\jdk-16!\jdk.security.jgss;C:\Program Files\Java\jdk-16!\jdk.unsupported;C:\Program Files\Java\jdk-16!\jdk.unsupported.desktop;C:\Program Files\Java\jdk-16!\jdk.xml.dom;C:\Program Files\Java\jdk-16!\jdk.zipfs;C:\Program Files\webAutomationWithGauge\target\test-classes;C:\Users\onat\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\onat\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\onat\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\onat\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\onat\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\onat\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\onat\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\onat\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\onat\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\onat\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\onat\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\onat\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\onat\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\onat\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\onat\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\onat\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\onat\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\onat\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\onat\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\onat\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\onat\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\onat\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\onat\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.0\webdrivermanager-4.2.0.jar;C:\Users\onat\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\onat\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\onat\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\onat\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\onat\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\onat\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\onat\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\onat\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar;C:\Users\onat\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\onat\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+22-04-2021 00:40:28.847 [java] [DEBUG] found java executable in java.exe
+22-04-2021 00:40:28.847 [java] [DEBUG] running - java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+22-04-2021 00:40:28.847 [java] [DEBUG] stdout/stderr is logged to logs\6448-java.exe.out
+22-04-2021 00:40:29.597 [Gauge] [DEBUG] Checking updates...
+22-04-2021 00:40:29.966 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+22-04-2021 00:40:30.602 [java] [DEBUG] multithreading is set to false
+22-04-2021 00:40:30.847 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+22-04-2021 00:40:31.310 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+22-04-2021 00:40:33.261 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+22-04-2021 00:40:34.096 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+22-04-2021 00:40:34.096 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+22-04-2021 00:40:34.096 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+22-04-2021 00:40:42.708 [java] [DEBUG] Scanning packages for steps
+22-04-2021 00:40:42.708 [java] [DEBUG] Comparing 'test.pageControlTest.checkUserNameField' and 'test.pageControlTest.checkUserNameField'
+22-04-2021 00:40:42.708 [java] [DEBUG] Found Check User name on login page in current project scope.
+22-04-2021 00:40:42.708 [java] [DEBUG] Comparing 'test.homeTest.goToUrl' and 'test.homeTest.goToUrl'
+22-04-2021 00:40:42.708 [java] [DEBUG] Found Go to the demo site login page in current project scope.
+22-04-2021 00:40:42.708 [java] [DEBUG] Comparing 'test.loginTest.checkLoginStatusMessage' and 'test.loginTest.checkLoginStatusMessage'
+22-04-2021 00:40:42.708 [java] [DEBUG] Found Check success login status message on login page in current project scope.
+22-04-2021 00:40:42.708 [java] [DEBUG] Comparing 'test.pageControlTest.checkTitle' and 'test.pageControlTest.checkTitle'
+22-04-2021 00:40:42.708 [java] [DEBUG] Found Check title login page in current project scope.
+22-04-2021 00:40:42.708 [java] [DEBUG] Comparing 'test.loginTest.clickLoginButton' and 'test.loginTest.clickLoginButton'
+22-04-2021 00:40:42.708 [java] [DEBUG] Found Click login button on login page in current project scope.
+22-04-2021 00:40:42.708 [java] [DEBUG] Comparing 'test.loginTest.setPassword' and 'test.loginTest.setPassword'
+22-04-2021 00:40:42.708 [java] [DEBUG] Found Enter correct password on login page in current project scope.
+22-04-2021 00:40:42.708 [java] [DEBUG] Comparing 'test.pageControlTest.checkHeader' and 'test.pageControlTest.checkHeader'
+22-04-2021 00:40:42.708 [java] [DEBUG] Found Check Header on login page in current project scope.
+22-04-2021 00:40:42.708 [java] [DEBUG] Comparing 'test.pageControlTest.checkInfoMessage' and 'test.pageControlTest.checkInfoMessage'
+22-04-2021 00:40:42.708 [java] [DEBUG] Found Check Info Message on login page in current project scope.
+22-04-2021 00:40:42.708 [java] [DEBUG] Comparing 'test.loginTest.setUserName' and 'test.loginTest.setUserName'
+22-04-2021 00:40:42.708 [java] [DEBUG] Found Enter correct username on login page in current project scope.
+22-04-2021 00:40:42.708 [java] [DEBUG] Comparing 'test.pageControlTest.checkLoginButton' and 'test.pageControlTest.checkLoginButton'
+22-04-2021 00:40:42.708 [java] [DEBUG] Found Check Login button in current project scope.
+22-04-2021 00:40:42.708 [java] [DEBUG] Comparing 'test.pageControlTest.checkPasswordField' and 'test.pageControlTest.checkPasswordField'
+22-04-2021 00:40:42.708 [java] [DEBUG] Found Check password field on login page in current project scope.
+22-04-2021 00:40:42.708 [java] [DEBUG] Comparing 'test.pageControlTest.checkStatusMessage' and 'test.pageControlTest.checkStatusMessage'
+22-04-2021 00:40:42.709 [java] [DEBUG] Found Check Status Message on login page in current project scope.
+22-04-2021 00:40:42.709 [java] [DEBUG] Scanning packages for hooks
+22-04-2021 00:40:42.709 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+22-04-2021 00:40:42.709 [java] [DEBUG] 	Check Status Message on login page : public void checkStatusMessage()
+22-04-2021 00:40:42.709 [java] [DEBUG] 	Check success login status message on login page : public void checkLoginStatusMessage()
+22-04-2021 00:40:42.709 [java] [DEBUG] 	Check User name on login page : public void checkUserNameField()
+22-04-2021 00:40:42.709 [java] [DEBUG] 	Check password field on login page : public void checkPasswordField()
+22-04-2021 00:40:42.709 [java] [DEBUG] 	Check Info Message on login page : public void checkInfoMessage()
+22-04-2021 00:40:42.709 [java] [DEBUG] 	Check Header on login page : public void checkHeader()
+22-04-2021 00:40:42.709 [java] [DEBUG] 	Enter correct password on login page : public void setPassword()
+22-04-2021 00:40:42.709 [java] [DEBUG] 	Go to the demo site login page : public void goToUrl()
+22-04-2021 00:40:42.709 [java] [DEBUG] 	Check Login button : public void checkLoginButton()
+22-04-2021 00:40:42.709 [java] [DEBUG] 	Enter correct username on login page : public void setUserName()
+22-04-2021 00:40:42.709 [java] [DEBUG] 	Check title login page : public void checkTitle()
+22-04-2021 00:40:42.709 [java] [DEBUG] 	Click login button on login page : public void clickLoginButton()
+22-04-2021 00:40:43.381 [java] [DEBUG] gauge-java took 12689milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+22-04-2021 00:40:43.382 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 12689
+22-04-2021 00:40:43.382 [java] [DEBUG] starting gRPC server...
+22-04-2021 00:40:43.694 [java] [DEBUG] started gRPC server on port 52977
+22-04-2021 00:40:43.704 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52977
+22-04-2021 00:40:44.229 [Gauge] [DEBUG] Successfully made the connection with runner with port: 52977
+22-04-2021 00:40:44.229 [Gauge] [DEBUG] Validation started.
+22-04-2021 00:40:49.452 [Gauge] [DEBUG] Validation completed.
+22-04-2021 00:40:49.454 [Gauge] [DEBUG] Run started
+22-04-2021 00:40:49.456 [Gauge] [DEBUG] Starting Html Report plugin
+22-04-2021 00:40:49.484 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52980
+22-04-2021 00:40:49.485 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 52980
+22-04-2021 00:40:49.486 [Gauge] [DEBUG] Initialising suite data store.
+22-04-2021 00:40:52.067 [java] [ERROR] Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 42114
+22-04-2021 00:40:52.067 [java] [ERROR] Only local connections are allowed.
+22-04-2021 00:40:52.068 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+22-04-2021 00:40:52.076 [java] [ERROR] ChromeDriver was started successfully.
+22-04-2021 00:41:04.537 [java] [ERROR] Nis 22, 2021 12:41:04 ÖÖ org.openqa.selenium.remote.ProtocolHandshake createSession
+22-04-2021 00:41:04.538 [java] [ERROR] INFO: Detected dialect: W3C
+22-04-2021 00:41:05.177 [java] [DEBUG] Executing 'Go to the demo site login page' using 'class test.homeTest.goToUrl
+22-04-2021 00:41:06.413 [java] [DEBUG] Executing 'Enter correct username on login page' using 'class test.loginTest.setUserName
+22-04-2021 00:41:06.698 [java] [DEBUG] Executing 'Enter correct password on login page' using 'class test.loginTest.setPassword
+22-04-2021 00:41:06.957 [java] [DEBUG] Executing 'Click login button on login page' using 'class test.loginTest.clickLoginButton
+22-04-2021 00:41:07.496 [java] [DEBUG] Executing 'Check success login status message on login page' using 'class test.loginTest.checkLoginStatusMessage
+22-04-2021 00:41:09.604 [html-report] [DEBUG] Transformed SuiteResult to report structure
+22-04-2021 00:41:09.835 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+22-04-2021 00:41:09.879 [html-report] [INFO] Successfully generated html-report to => C:\Program Files\webAutomationWithGauge\reports\html-report\index.html
+22-04-2021 00:41:09.879 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\onat\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+22-04-2021 00:41:10.519 [Gauge] [DEBUG] Runner with PID:6448 has exited
+22-04-2021 00:41:10.519 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+22-04-2021 00:41:10.519 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22-04-2021 00:41:10.519 [Gauge] [INFO] 
+Total time taken: 20.124s
+22-04-2021 00:50:02.753 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Program Files\webAutomationWithGauge\.gauge\screenshots
+22-04-2021 00:50:02.818 [Gauge] [DEBUG] Plugin java is already installed.
+22-04-2021 00:50:02.819 [Gauge] [DEBUG] Plugin html-report is already installed.
+22-04-2021 00:50:02.821 [Gauge] [DEBUG] Parsing started.
+22-04-2021 00:50:02.821 [Gauge] [DEBUG] Started concepts parsing.
+22-04-2021 00:50:02.828 [Gauge] [DEBUG] 0 concepts parsing completed.
+22-04-2021 00:50:02.829 [Gauge] [DEBUG] Started specifications parsing.
+22-04-2021 00:50:02.839 [Gauge] [DEBUG] 1 specifications parsing completed.
+22-04-2021 00:50:02.839 [Gauge] [DEBUG] Parsing completed.
+22-04-2021 00:50:03.034 [java] [DEBUG] ***** Printing Properties/Env Values *****
+22-04-2021 00:50:03.034 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\nodejs\;C:\Program Files\Gauge\bin;C:\Program Files\Java\jdk-16\bin;D:\opencv\anaconda3;D:\opencv\anaconda3\Library\mingw-w64\bin;D:\opencv\anaconda3\Library\usr\bin;D:\opencv\anaconda3\Library\bin;D:\opencv\anaconda3\Scripts;C:\Users\onat\AppData\Roaming\npm;C:\Users\onat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\onat\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+22-04-2021 00:50:03.034 [java] [DEBUG] JAVA_HOME: 
+22-04-2021 00:50:03.034 [java] [DEBUG] gauge_project_root: C:\Program Files\webAutomationWithGauge
+22-04-2021 00:50:03.034 [java] [DEBUG] gauge_parallel_streams_count: 2
+22-04-2021 00:50:03.034 [java] [DEBUG] gauge_reports_dir: reports
+22-04-2021 00:50:03.034 [java] [DEBUG] overwrite_reports: true
+22-04-2021 00:50:03.034 [java] [DEBUG] logs_directory: logs
+22-04-2021 00:50:03.034 [java] [DEBUG] enable_multithreading: false
+22-04-2021 00:50:03.034 [java] [DEBUG] gauge_specs_dir: specs
+22-04-2021 00:50:03.034 [java] [DEBUG] csv_delimiter: ,
+22-04-2021 00:50:03.034 [java] [DEBUG] gauge_java_home: 
+22-04-2021 00:50:03.034 [java] [DEBUG] gauge_custom_build_path: 
+22-04-2021 00:50:03.034 [java] [DEBUG] gauge_additional_libs: libs/*
+22-04-2021 00:50:03.034 [java] [DEBUG] gauge_jvm_args: 
+22-04-2021 00:50:03.034 [java] [DEBUG] gauge_custom_compile_dir: 
+22-04-2021 00:50:03.034 [java] [DEBUG] gauge_clear_state_level: scenario
+22-04-2021 00:50:03.034 [java] [DEBUG] ***** END *****
+22-04-2021 00:50:03.059 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+22-04-2021 00:50:03.072 [java] [ERROR] Installed version of gauge-java (0.7.13) does not match with dependency gauge-java () specified in pom.xml file
+22-04-2021 00:50:03.072 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk-16!\java.base;C:\Program Files\Java\jdk-16!\java.compiler;C:\Program Files\Java\jdk-16!\java.datatransfer;C:\Program Files\Java\jdk-16!\java.desktop;C:\Program Files\Java\jdk-16!\java.instrument;C:\Program Files\Java\jdk-16!\java.logging;C:\Program Files\Java\jdk-16!\java.management;C:\Program Files\Java\jdk-16!\java.management.rmi;C:\Program Files\Java\jdk-16!\java.naming;C:\Program Files\Java\jdk-16!\java.net.http;C:\Program Files\Java\jdk-16!\java.prefs;C:\Program Files\Java\jdk-16!\java.rmi;C:\Program Files\Java\jdk-16!\java.scripting;C:\Program Files\Java\jdk-16!\java.se;C:\Program Files\Java\jdk-16!\java.security.jgss;C:\Program Files\Java\jdk-16!\java.security.sasl;C:\Program Files\Java\jdk-16!\java.smartcardio;C:\Program Files\Java\jdk-16!\java.sql;C:\Program Files\Java\jdk-16!\java.sql.rowset;C:\Program Files\Java\jdk-16!\java.transaction.xa;C:\Program Files\Java\jdk-16!\java.xml;C:\Program Files\Java\jdk-16!\java.xml.crypto;C:\Program Files\Java\jdk-16!\jdk.accessibility;C:\Program Files\Java\jdk-16!\jdk.attach;C:\Program Files\Java\jdk-16!\jdk.charsets;C:\Program Files\Java\jdk-16!\jdk.compiler;C:\Program Files\Java\jdk-16!\jdk.crypto.cryptoki;C:\Program Files\Java\jdk-16!\jdk.crypto.ec;C:\Program Files\Java\jdk-16!\jdk.crypto.mscapi;C:\Program Files\Java\jdk-16!\jdk.dynalink;C:\Program Files\Java\jdk-16!\jdk.editpad;C:\Program Files\Java\jdk-16!\jdk.hotspot.agent;C:\Program Files\Java\jdk-16!\jdk.httpserver;C:\Program Files\Java\jdk-16!\jdk.incubator.foreign;C:\Program Files\Java\jdk-16!\jdk.incubator.vector;C:\Program Files\Java\jdk-16!\jdk.internal.ed;C:\Program Files\Java\jdk-16!\jdk.internal.jvmstat;C:\Program Files\Java\jdk-16!\jdk.internal.le;C:\Program Files\Java\jdk-16!\jdk.internal.opt;C:\Program Files\Java\jdk-16!\jdk.internal.vm.ci;C:\Program Files\Java\jdk-16!\jdk.jartool;C:\Program Files\Java\jdk-16!\jdk.javadoc;C:\Program Files\Java\jdk-16!\jdk.jcmd;C:\Program Files\Java\jdk-16!\jdk.jconsole;C:\Program Files\Java\jdk-16!\jdk.jdeps;C:\Program Files\Java\jdk-16!\jdk.jdi;C:\Program Files\Java\jdk-16!\jdk.jdwp.agent;C:\Program Files\Java\jdk-16!\jdk.jfr;C:\Program Files\Java\jdk-16!\jdk.jlink;C:\Program Files\Java\jdk-16!\jdk.jpackage;C:\Program Files\Java\jdk-16!\jdk.jshell;C:\Program Files\Java\jdk-16!\jdk.jsobject;C:\Program Files\Java\jdk-16!\jdk.jstatd;C:\Program Files\Java\jdk-16!\jdk.localedata;C:\Program Files\Java\jdk-16!\jdk.management;C:\Program Files\Java\jdk-16!\jdk.management.agent;C:\Program Files\Java\jdk-16!\jdk.management.jfr;C:\Program Files\Java\jdk-16!\jdk.naming.dns;C:\Program Files\Java\jdk-16!\jdk.naming.rmi;C:\Program Files\Java\jdk-16!\jdk.net;C:\Program Files\Java\jdk-16!\jdk.nio.mapmode;C:\Program Files\Java\jdk-16!\jdk.sctp;C:\Program Files\Java\jdk-16!\jdk.security.auth;C:\Program Files\Java\jdk-16!\jdk.security.jgss;C:\Program Files\Java\jdk-16!\jdk.unsupported;C:\Program Files\Java\jdk-16!\jdk.unsupported.desktop;C:\Program Files\Java\jdk-16!\jdk.xml.dom;C:\Program Files\Java\jdk-16!\jdk.zipfs;C:\Program Files\webAutomationWithGauge\target\test-classes;C:\Users\onat\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\onat\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\onat\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\onat\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\onat\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\onat\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\onat\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\onat\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\onat\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\onat\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\onat\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\onat\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\onat\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\onat\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\onat\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\onat\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\onat\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\onat\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\onat\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\onat\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\onat\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\onat\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\onat\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.0\webdrivermanager-4.2.0.jar;C:\Users\onat\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\onat\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\onat\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\onat\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\onat\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\onat\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\onat\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\onat\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar;C:\Users\onat\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\onat\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+22-04-2021 00:50:03.082 [java] [DEBUG] found java executable in java.exe
+22-04-2021 00:50:03.082 [java] [DEBUG] running - java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+22-04-2021 00:50:03.082 [java] [DEBUG] stdout/stderr is logged to logs\2612-java.exe.out
+22-04-2021 00:50:04.176 [Gauge] [DEBUG] Checking updates...
+22-04-2021 00:50:04.519 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+22-04-2021 00:50:04.848 [java] [DEBUG] multithreading is set to false
+22-04-2021 00:50:05.454 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+22-04-2021 00:50:06.376 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+22-04-2021 00:50:07.211 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+22-04-2021 00:50:08.019 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+22-04-2021 00:50:08.019 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+22-04-2021 00:50:08.019 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+22-04-2021 00:50:17.612 [java] [DEBUG] gauge-java took 13027milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+22-04-2021 00:50:17.612 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 13027
+22-04-2021 00:50:17.612 [java] [DEBUG] starting gRPC server...
+22-04-2021 00:50:18.228 [java] [DEBUG] started gRPC server on port 53026
+22-04-2021 00:50:18.229 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53026
+22-04-2021 00:50:18.910 [java] [DEBUG] Scanning packages for steps
+22-04-2021 00:50:18.910 [java] [DEBUG] Comparing 'test.loginTest.setFailUserName' and 'test.loginTest.setFailUserName'
+22-04-2021 00:50:18.910 [java] [DEBUG] Found Enter incorrect username on login page in current project scope.
+22-04-2021 00:50:18.910 [java] [DEBUG] Comparing 'test.pageControlTest.checkUserNameField' and 'test.pageControlTest.checkUserNameField'
+22-04-2021 00:50:18.910 [java] [DEBUG] Found Check User name on login page in current project scope.
+22-04-2021 00:50:18.910 [java] [DEBUG] Comparing 'test.loginTest.checkLoginStatusMessage' and 'test.loginTest.checkLoginStatusMessage'
+22-04-2021 00:50:18.910 [java] [DEBUG] Found Check success login status message on login page in current project scope.
+22-04-2021 00:50:18.910 [java] [DEBUG] Comparing 'test.pageControlTest.checkTitle' and 'test.pageControlTest.checkTitle'
+22-04-2021 00:50:18.910 [java] [DEBUG] Found Check title login page in current project scope.
+22-04-2021 00:50:18.910 [java] [DEBUG] Comparing 'test.loginTest.clickLoginButton' and 'test.loginTest.clickLoginButton'
+22-04-2021 00:50:18.910 [java] [DEBUG] Found Click login button on login page in current project scope.
+22-04-2021 00:50:18.910 [java] [DEBUG] Comparing 'test.loginTest.setPassword' and 'test.loginTest.setPassword'
+22-04-2021 00:50:18.910 [java] [DEBUG] Found Enter correct password on login page in current project scope.
+22-04-2021 00:50:18.910 [java] [DEBUG] Comparing 'test.loginTest.checkFailedLoginStatusMessage' and 'test.loginTest.checkFailedLoginStatusMessage'
+22-04-2021 00:50:18.910 [java] [DEBUG] Found Check failed login status message on login page in current project scope.
+22-04-2021 00:50:18.910 [java] [DEBUG] Comparing 'test.pageControlTest.checkStatusMessage' and 'test.pageControlTest.checkStatusMessage'
+22-04-2021 00:50:18.910 [java] [DEBUG] Found Check Status Message on login page in current project scope.
+22-04-2021 00:50:18.910 [java] [DEBUG] Comparing 'test.homeTest.goToUrl' and 'test.homeTest.goToUrl'
+22-04-2021 00:50:18.910 [java] [DEBUG] Found Go to the demo site login page in current project scope.
+22-04-2021 00:50:18.910 [java] [DEBUG] Comparing 'test.pageControlTest.checkHeader' and 'test.pageControlTest.checkHeader'
+22-04-2021 00:50:18.910 [java] [DEBUG] Found Check Header on login page in current project scope.
+22-04-2021 00:50:18.910 [java] [DEBUG] Comparing 'test.pageControlTest.checkInfoMessage' and 'test.pageControlTest.checkInfoMessage'
+22-04-2021 00:50:18.911 [java] [DEBUG] Found Check Info Message on login page in current project scope.
+22-04-2021 00:50:18.911 [java] [DEBUG] Comparing 'test.loginTest.setUserName' and 'test.loginTest.setUserName'
+22-04-2021 00:50:18.911 [java] [DEBUG] Found Enter correct username on login page in current project scope.
+22-04-2021 00:50:18.911 [java] [DEBUG] Comparing 'test.pageControlTest.checkLoginButton' and 'test.pageControlTest.checkLoginButton'
+22-04-2021 00:50:18.911 [java] [DEBUG] Found Check Login button in current project scope.
+22-04-2021 00:50:18.911 [java] [DEBUG] Comparing 'test.loginTest.setFailPassword' and 'test.loginTest.setFailPassword'
+22-04-2021 00:50:18.911 [java] [DEBUG] Found Enter incorrect password on login page in current project scope.
+22-04-2021 00:50:18.911 [java] [DEBUG] Comparing 'test.pageControlTest.checkPasswordField' and 'test.pageControlTest.checkPasswordField'
+22-04-2021 00:50:18.911 [java] [DEBUG] Found Check password field on login page in current project scope.
+22-04-2021 00:50:18.911 [java] [DEBUG] Scanning packages for hooks
+22-04-2021 00:50:18.911 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+22-04-2021 00:50:18.911 [java] [DEBUG] 	Check Status Message on login page : public void checkStatusMessage()
+22-04-2021 00:50:18.911 [java] [DEBUG] 	Check success login status message on login page : public void checkLoginStatusMessage()
+22-04-2021 00:50:18.911 [java] [DEBUG] 	Check User name on login page : public void checkUserNameField()
+22-04-2021 00:50:18.911 [java] [DEBUG] 	Enter incorrect password on login page : public void setFailPassword()
+22-04-2021 00:50:18.911 [java] [DEBUG] 	Check password field on login page : public void checkPasswordField()
+22-04-2021 00:50:18.911 [java] [DEBUG] 	Check Info Message on login page : public void checkInfoMessage()
+22-04-2021 00:50:18.911 [java] [DEBUG] 	Check Header on login page : public void checkHeader()
+22-04-2021 00:50:18.911 [java] [DEBUG] 	Enter correct password on login page : public void setPassword()
+22-04-2021 00:50:18.911 [java] [DEBUG] 	Enter incorrect username on login page : public void setFailUserName()
+22-04-2021 00:50:18.911 [java] [DEBUG] 	Go to the demo site login page : public void goToUrl()
+22-04-2021 00:50:18.911 [java] [DEBUG] 	Check Login button : public void checkLoginButton()
+22-04-2021 00:50:18.911 [java] [DEBUG] 	Enter correct username on login page : public void setUserName()
+22-04-2021 00:50:18.911 [java] [DEBUG] 	Check title login page : public void checkTitle()
+22-04-2021 00:50:18.911 [java] [DEBUG] 	Click login button on login page : public void clickLoginButton()
+22-04-2021 00:50:18.911 [java] [DEBUG] 	Check failed login status message on login page : public void checkFailedLoginStatusMessage()
+22-04-2021 00:50:19.073 [Gauge] [DEBUG] Successfully made the connection with runner with port: 53026
+22-04-2021 00:50:19.074 [Gauge] [DEBUG] Validation started.
+22-04-2021 00:50:23.856 [Gauge] [DEBUG] Validation completed.
+22-04-2021 00:50:23.857 [Gauge] [DEBUG] Run started
+22-04-2021 00:50:23.860 [Gauge] [DEBUG] Starting Html Report plugin
+22-04-2021 00:50:23.896 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53029
+22-04-2021 00:50:23.897 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 53029
+22-04-2021 00:50:23.897 [Gauge] [DEBUG] Initialising suite data store.
+22-04-2021 00:50:26.269 [java] [ERROR] Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 25700
+22-04-2021 00:50:26.269 [java] [ERROR] Only local connections are allowed.
+22-04-2021 00:50:26.269 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+22-04-2021 00:50:26.277 [java] [ERROR] ChromeDriver was started successfully.
+22-04-2021 00:50:37.301 [java] [ERROR] Nis 22, 2021 12:50:37 ÖÖ org.openqa.selenium.remote.ProtocolHandshake createSession
+22-04-2021 00:50:37.301 [java] [ERROR] INFO: Detected dialect: W3C
+22-04-2021 00:50:38.033 [java] [DEBUG] Executing 'Go to the demo site login page' using 'class test.homeTest.goToUrl
+22-04-2021 00:50:39.289 [java] [DEBUG] Executing 'Enter incorrect username on login page' using 'class test.loginTest.setFailUserName
+22-04-2021 00:50:39.672 [java] [DEBUG] Executing 'Enter incorrect password on login page' using 'class test.loginTest.setFailPassword
+22-04-2021 00:50:39.952 [java] [DEBUG] Executing 'Click login button on login page' using 'class test.loginTest.clickLoginButton
+22-04-2021 00:50:40.663 [java] [DEBUG] Executing 'Check failed login status message on login page' using 'class test.loginTest.checkFailedLoginStatusMessage
+22-04-2021 00:50:41.917 [html-report] [DEBUG] Transformed SuiteResult to report structure
+22-04-2021 00:50:41.988 [html-report] [INFO] Successfully generated html-report to => C:\Program Files\webAutomationWithGauge\reports\html-report\index.html
+22-04-2021 00:50:41.988 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\onat\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+22-04-2021 00:50:41.990 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+22-04-2021 00:50:42.518 [Gauge] [DEBUG] Runner with PID:2612 has exited
+22-04-2021 00:50:42.518 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+22-04-2021 00:50:42.518 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+22-04-2021 00:50:42.518 [Gauge] [INFO] 
+Total time taken: 18.055s
+23-04-2021 17:31:30.385 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Program Files\webAutomationWithGauge\.gauge\screenshots
+23-04-2021 17:31:30.751 [Gauge] [DEBUG] Plugin java is already installed.
+23-04-2021 17:31:31.581 [Gauge] [DEBUG] Plugin html-report is already installed.
+23-04-2021 17:31:32.279 [Gauge] [DEBUG] Parsing started.
+23-04-2021 17:31:32.279 [Gauge] [DEBUG] Started concepts parsing.
+23-04-2021 17:31:32.285 [Gauge] [DEBUG] 0 concepts parsing completed.
+23-04-2021 17:31:32.285 [Gauge] [DEBUG] Started specifications parsing.
+23-04-2021 17:31:33.031 [Gauge] [DEBUG] 1 specifications parsing completed.
+23-04-2021 17:31:33.083 [Gauge] [DEBUG] Parsing completed.
+23-04-2021 17:31:33.936 [java] [DEBUG] ***** Printing Properties/Env Values *****
+23-04-2021 17:31:33.984 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\nodejs\;C:\Program Files\Gauge\bin;C:\Program Files\Java\jdk-16\bin;D:\opencv\anaconda3;D:\opencv\anaconda3\Library\mingw-w64\bin;D:\opencv\anaconda3\Library\usr\bin;D:\opencv\anaconda3\Library\bin;D:\opencv\anaconda3\Scripts;C:\Users\onat\AppData\Roaming\npm;C:\Users\onat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\onat\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+23-04-2021 17:31:33.984 [java] [DEBUG] JAVA_HOME: 
+23-04-2021 17:31:33.984 [java] [DEBUG] gauge_project_root: C:\Program Files\webAutomationWithGauge
+23-04-2021 17:31:33.984 [java] [DEBUG] gauge_parallel_streams_count: 2
+23-04-2021 17:31:33.984 [java] [DEBUG] gauge_reports_dir: reports
+23-04-2021 17:31:33.984 [java] [DEBUG] overwrite_reports: true
+23-04-2021 17:31:33.984 [java] [DEBUG] logs_directory: logs
+23-04-2021 17:31:33.984 [java] [DEBUG] enable_multithreading: false
+23-04-2021 17:31:33.984 [java] [DEBUG] gauge_specs_dir: specs
+23-04-2021 17:31:33.984 [java] [DEBUG] csv_delimiter: ,
+23-04-2021 17:31:33.984 [java] [DEBUG] gauge_java_home: 
+23-04-2021 17:31:33.984 [java] [DEBUG] gauge_custom_build_path: 
+23-04-2021 17:31:33.984 [java] [DEBUG] gauge_additional_libs: libs/*
+23-04-2021 17:31:33.984 [java] [DEBUG] gauge_jvm_args: 
+23-04-2021 17:31:33.984 [java] [DEBUG] gauge_custom_compile_dir: 
+23-04-2021 17:31:33.984 [java] [DEBUG] gauge_clear_state_level: scenario
+23-04-2021 17:31:33.984 [java] [DEBUG] ***** END *****
+23-04-2021 17:31:34.050 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+23-04-2021 17:31:34.069 [java] [ERROR] Installed version of gauge-java (0.7.13) does not match with dependency gauge-java () specified in pom.xml file
+23-04-2021 17:31:34.078 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk-16!\java.base;C:\Program Files\Java\jdk-16!\java.compiler;C:\Program Files\Java\jdk-16!\java.datatransfer;C:\Program Files\Java\jdk-16!\java.desktop;C:\Program Files\Java\jdk-16!\java.instrument;C:\Program Files\Java\jdk-16!\java.logging;C:\Program Files\Java\jdk-16!\java.management;C:\Program Files\Java\jdk-16!\java.management.rmi;C:\Program Files\Java\jdk-16!\java.naming;C:\Program Files\Java\jdk-16!\java.net.http;C:\Program Files\Java\jdk-16!\java.prefs;C:\Program Files\Java\jdk-16!\java.rmi;C:\Program Files\Java\jdk-16!\java.scripting;C:\Program Files\Java\jdk-16!\java.se;C:\Program Files\Java\jdk-16!\java.security.jgss;C:\Program Files\Java\jdk-16!\java.security.sasl;C:\Program Files\Java\jdk-16!\java.smartcardio;C:\Program Files\Java\jdk-16!\java.sql;C:\Program Files\Java\jdk-16!\java.sql.rowset;C:\Program Files\Java\jdk-16!\java.transaction.xa;C:\Program Files\Java\jdk-16!\java.xml;C:\Program Files\Java\jdk-16!\java.xml.crypto;C:\Program Files\Java\jdk-16!\jdk.accessibility;C:\Program Files\Java\jdk-16!\jdk.attach;C:\Program Files\Java\jdk-16!\jdk.charsets;C:\Program Files\Java\jdk-16!\jdk.compiler;C:\Program Files\Java\jdk-16!\jdk.crypto.cryptoki;C:\Program Files\Java\jdk-16!\jdk.crypto.ec;C:\Program Files\Java\jdk-16!\jdk.crypto.mscapi;C:\Program Files\Java\jdk-16!\jdk.dynalink;C:\Program Files\Java\jdk-16!\jdk.editpad;C:\Program Files\Java\jdk-16!\jdk.hotspot.agent;C:\Program Files\Java\jdk-16!\jdk.httpserver;C:\Program Files\Java\jdk-16!\jdk.incubator.foreign;C:\Program Files\Java\jdk-16!\jdk.incubator.vector;C:\Program Files\Java\jdk-16!\jdk.internal.ed;C:\Program Files\Java\jdk-16!\jdk.internal.jvmstat;C:\Program Files\Java\jdk-16!\jdk.internal.le;C:\Program Files\Java\jdk-16!\jdk.internal.opt;C:\Program Files\Java\jdk-16!\jdk.internal.vm.ci;C:\Program Files\Java\jdk-16!\jdk.jartool;C:\Program Files\Java\jdk-16!\jdk.javadoc;C:\Program Files\Java\jdk-16!\jdk.jcmd;C:\Program Files\Java\jdk-16!\jdk.jconsole;C:\Program Files\Java\jdk-16!\jdk.jdeps;C:\Program Files\Java\jdk-16!\jdk.jdi;C:\Program Files\Java\jdk-16!\jdk.jdwp.agent;C:\Program Files\Java\jdk-16!\jdk.jfr;C:\Program Files\Java\jdk-16!\jdk.jlink;C:\Program Files\Java\jdk-16!\jdk.jpackage;C:\Program Files\Java\jdk-16!\jdk.jshell;C:\Program Files\Java\jdk-16!\jdk.jsobject;C:\Program Files\Java\jdk-16!\jdk.jstatd;C:\Program Files\Java\jdk-16!\jdk.localedata;C:\Program Files\Java\jdk-16!\jdk.management;C:\Program Files\Java\jdk-16!\jdk.management.agent;C:\Program Files\Java\jdk-16!\jdk.management.jfr;C:\Program Files\Java\jdk-16!\jdk.naming.dns;C:\Program Files\Java\jdk-16!\jdk.naming.rmi;C:\Program Files\Java\jdk-16!\jdk.net;C:\Program Files\Java\jdk-16!\jdk.nio.mapmode;C:\Program Files\Java\jdk-16!\jdk.sctp;C:\Program Files\Java\jdk-16!\jdk.security.auth;C:\Program Files\Java\jdk-16!\jdk.security.jgss;C:\Program Files\Java\jdk-16!\jdk.unsupported;C:\Program Files\Java\jdk-16!\jdk.unsupported.desktop;C:\Program Files\Java\jdk-16!\jdk.xml.dom;C:\Program Files\Java\jdk-16!\jdk.zipfs;C:\Program Files\webAutomationWithGauge\target\test-classes;C:\Users\onat\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\onat\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\onat\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\onat\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\onat\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\onat\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\onat\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\onat\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\onat\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\onat\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\onat\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\onat\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\onat\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\onat\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\onat\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\onat\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\onat\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\onat\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\onat\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\onat\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\onat\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\onat\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\onat\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\onat\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\onat\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.0\webdrivermanager-4.2.0.jar;C:\Users\onat\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\onat\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\onat\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\onat\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\onat\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\onat\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\onat\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\onat\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\onat\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\onat\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar;C:\Users\onat\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\onat\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+23-04-2021 17:31:34.078 [java] [DEBUG] found java executable in java.exe
+23-04-2021 17:31:34.078 [java] [DEBUG] running - java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+23-04-2021 17:31:34.078 [java] [DEBUG] stdout/stderr is logged to logs\3552-java.exe.out
+23-04-2021 17:31:35.602 [Gauge] [DEBUG] Checking updates...
+23-04-2021 17:31:35.606 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+23-04-2021 17:31:36.294 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+23-04-2021 17:31:36.485 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+23-04-2021 17:31:37.276 [java] [DEBUG] multithreading is set to false
+23-04-2021 17:31:38.433 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+23-04-2021 17:31:39.068 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+23-04-2021 17:31:39.068 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+23-04-2021 17:31:39.068 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+23-04-2021 17:31:46.326 [java] [DEBUG] gauge-java took 9050milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+23-04-2021 17:31:46.326 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 9050
+23-04-2021 17:31:46.326 [java] [DEBUG] starting gRPC server...
+23-04-2021 17:31:49.501 [java] [DEBUG] started gRPC server on port 54324
+23-04-2021 17:31:49.501 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54324
+23-04-2021 17:31:52.181 [Gauge] [DEBUG] Successfully made the connection with runner with port: 54324
+23-04-2021 17:31:52.181 [Gauge] [DEBUG] Validation started.
+23-04-2021 17:31:54.031 [java] [DEBUG] Scanning packages for steps
+23-04-2021 17:31:54.151 [java] [DEBUG] Comparing 'test.loginTest.setFailUserName' and 'test.loginTest.setFailUserName'
+23-04-2021 17:31:54.151 [java] [DEBUG] Found Enter incorrect username on login page in current project scope.
+23-04-2021 17:31:54.151 [java] [DEBUG] Comparing 'test.pageControlTest.checkUserNameField' and 'test.pageControlTest.checkUserNameField'
+23-04-2021 17:31:54.151 [java] [DEBUG] Found Check User name on login page in current project scope.
+23-04-2021 17:31:54.151 [java] [DEBUG] Comparing 'test.loginTest.checkLoginStatusMessage' and 'test.loginTest.checkLoginStatusMessage'
+23-04-2021 17:31:54.151 [java] [DEBUG] Found Check success login status message on login page in current project scope.
+23-04-2021 17:31:54.151 [java] [DEBUG] Comparing 'test.pageControlTest.checkTitle' and 'test.pageControlTest.checkTitle'
+23-04-2021 17:31:54.151 [java] [DEBUG] Found Check title login page in current project scope.
+23-04-2021 17:31:54.151 [java] [DEBUG] Comparing 'test.loginTest.clickLoginButton' and 'test.loginTest.clickLoginButton'
+23-04-2021 17:31:54.151 [java] [DEBUG] Found Click login button on login page in current project scope.
+23-04-2021 17:31:54.151 [java] [DEBUG] Comparing 'test.loginTest.setPassword' and 'test.loginTest.setPassword'
+23-04-2021 17:31:54.151 [java] [DEBUG] Found Enter correct password on login page in current project scope.
+23-04-2021 17:31:54.151 [java] [DEBUG] Comparing 'test.loginTest.checkFailedLoginStatusMessage' and 'test.loginTest.checkFailedLoginStatusMessage'
+23-04-2021 17:31:54.151 [java] [DEBUG] Found Check failed login status message on login page in current project scope.
+23-04-2021 17:31:54.151 [java] [DEBUG] Comparing 'test.pageControlTest.checkStatusMessage' and 'test.pageControlTest.checkStatusMessage'
+23-04-2021 17:31:54.151 [java] [DEBUG] Found Check Status Message on login page in current project scope.
+23-04-2021 17:31:54.151 [java] [DEBUG] Comparing 'test.homeTest.goToUrl' and 'test.homeTest.goToUrl'
+23-04-2021 17:31:54.151 [java] [DEBUG] Found Go to the demo site login page in current project scope.
+23-04-2021 17:31:54.151 [java] [DEBUG] Comparing 'test.pageControlTest.checkHeader' and 'test.pageControlTest.checkHeader'
+23-04-2021 17:31:54.151 [java] [DEBUG] Found Check Header on login page in current project scope.
+23-04-2021 17:31:54.151 [java] [DEBUG] Comparing 'test.pageControlTest.checkInfoMessage' and 'test.pageControlTest.checkInfoMessage'
+23-04-2021 17:31:54.151 [java] [DEBUG] Found Check Info Message on login page in current project scope.
+23-04-2021 17:31:54.151 [java] [DEBUG] Comparing 'test.loginTest.setUserName' and 'test.loginTest.setUserName'
+23-04-2021 17:31:54.151 [java] [DEBUG] Found Enter correct username on login page in current project scope.
+23-04-2021 17:31:54.151 [java] [DEBUG] Comparing 'test.pageControlTest.checkLoginButton' and 'test.pageControlTest.checkLoginButton'
+23-04-2021 17:31:54.151 [java] [DEBUG] Found Check Login button in current project scope.
+23-04-2021 17:31:54.151 [java] [DEBUG] Comparing 'test.loginTest.setFailPassword' and 'test.loginTest.setFailPassword'
+23-04-2021 17:31:54.151 [java] [DEBUG] Found Enter incorrect password on login page in current project scope.
+23-04-2021 17:31:54.151 [java] [DEBUG] Comparing 'test.pageControlTest.checkPasswordField' and 'test.pageControlTest.checkPasswordField'
+23-04-2021 17:31:54.193 [java] [DEBUG] Found Check password field on login page in current project scope.
+23-04-2021 17:31:54.193 [java] [DEBUG] Scanning packages for hooks
+23-04-2021 17:31:54.193 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+23-04-2021 17:31:54.193 [java] [DEBUG] 	Check Status Message on login page : public void checkStatusMessage()
+23-04-2021 17:31:54.193 [java] [DEBUG] 	Check success login status message on login page : public void checkLoginStatusMessage()
+23-04-2021 17:31:54.193 [java] [DEBUG] 	Check User name on login page : public void checkUserNameField()
+23-04-2021 17:31:54.193 [java] [DEBUG] 	Enter incorrect password on login page : public void setFailPassword()
+23-04-2021 17:31:54.193 [java] [DEBUG] 	Check password field on login page : public void checkPasswordField()
+23-04-2021 17:31:54.193 [java] [DEBUG] 	Check Info Message on login page : public void checkInfoMessage()
+23-04-2021 17:31:54.193 [java] [DEBUG] 	Check Header on login page : public void checkHeader()
+23-04-2021 17:31:54.193 [java] [DEBUG] 	Enter correct password on login page : public void setPassword()
+23-04-2021 17:31:54.193 [java] [DEBUG] 	Enter incorrect username on login page : public void setFailUserName()
+23-04-2021 17:31:54.193 [java] [DEBUG] 	Go to the demo site login page : public void goToUrl()
+23-04-2021 17:31:54.193 [java] [DEBUG] 	Check Login button : public void checkLoginButton()
+23-04-2021 17:31:54.193 [java] [DEBUG] 	Enter correct username on login page : public void setUserName()
+23-04-2021 17:31:54.193 [java] [DEBUG] 	Check title login page : public void checkTitle()
+23-04-2021 17:31:54.193 [java] [DEBUG] 	Click login button on login page : public void clickLoginButton()
+23-04-2021 17:31:54.193 [java] [DEBUG] 	Check failed login status message on login page : public void checkFailedLoginStatusMessage()
+23-04-2021 17:31:56.267 [Gauge] [DEBUG] Validation completed.
+23-04-2021 17:31:56.316 [Gauge] [DEBUG] Run started
+23-04-2021 17:31:56.329 [Gauge] [DEBUG] Starting Html Report plugin
+23-04-2021 17:31:59.078 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54327
+23-04-2021 17:31:59.128 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 54327
+23-04-2021 17:31:59.146 [Gauge] [DEBUG] Initialising suite data store.
+23-04-2021 17:32:13.387 [java] [ERROR] Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 24052
+23-04-2021 17:32:13.387 [java] [ERROR] Only local connections are allowed.
+23-04-2021 17:32:13.387 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+23-04-2021 17:32:13.982 [java] [ERROR] ChromeDriver was started successfully.
+23-04-2021 17:32:53.126 [java] [ERROR] Nis 23, 2021 5:32:52 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+23-04-2021 17:32:53.126 [java] [ERROR] INFO: Detected dialect: W3C
+23-04-2021 17:32:53.701 [java] [DEBUG] Executing 'Go to the demo site login page' using 'class test.homeTest.goToUrl
+23-04-2021 17:32:54.945 [java] [DEBUG] Executing 'Check title login page' using 'class test.pageControlTest.checkTitle
+23-04-2021 17:32:54.980 [java] [DEBUG] Executing 'Check Header on login page' using 'class test.pageControlTest.checkHeader
+23-04-2021 17:32:55.252 [java] [DEBUG] Executing 'Check Status Message on login page' using 'class test.pageControlTest.checkStatusMessage
+23-04-2021 17:32:55.310 [java] [DEBUG] Executing 'Check Info Message on login page' using 'class test.pageControlTest.checkInfoMessage
+23-04-2021 17:32:55.365 [java] [DEBUG] Executing 'Check User name on login page' using 'class test.pageControlTest.checkUserNameField
+23-04-2021 17:32:55.491 [java] [DEBUG] Executing 'Check password field on login page' using 'class test.pageControlTest.checkPasswordField
+23-04-2021 17:32:55.556 [java] [DEBUG] Executing 'Check Login button' using 'class test.pageControlTest.checkLoginButton
+23-04-2021 17:32:57.193 [html-report] [DEBUG] Transformed SuiteResult to report structure
+23-04-2021 17:32:57.589 [html-report] [INFO] Successfully generated html-report to => C:\Program Files\webAutomationWithGauge\reports\html-report\index.html
+23-04-2021 17:32:57.589 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\onat\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+23-04-2021 17:32:57.603 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+23-04-2021 17:32:58.239 [Gauge] [DEBUG] Runner with PID:3552 has exited
+23-04-2021 17:32:58.239 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+23-04-2021 17:32:58.239 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+23-04-2021 17:32:58.254 [Gauge] [INFO] 
+Total time taken: 1m0.788s
+23-04-2021 17:32:58.255 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
